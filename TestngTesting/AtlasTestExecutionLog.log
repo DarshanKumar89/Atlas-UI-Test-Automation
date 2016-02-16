@@ -1,0 +1,400 @@
+2016-02-14 16:18:14 INFO  TestSuit1:32 - STARTED: Validate_NumberOfRows
+2016-02-14 16:18:41 INFO  TestSuit1:102 - ENDED: Validate_NumberOfRows
+2016-02-14 16:29:15 INFO  TestSuit1:32 - STARTED: Validate_NumberOfRows
+2016-02-14 16:29:45 INFO  TestSuit1:104 - Total number of Rows in table matched with the result label
+2016-02-14 16:29:45 INFO  TestSuit1:107 - ENDED: Validate_NumberOfRows
+2016-02-14 16:32:08 INFO  TestSuit1:32 - STARTED: Validate_NumberOfRows
+2016-02-14 16:35:32 INFO  TestSuit1:32 - STARTED: Validate_NumberOfRows
+2016-02-14 16:36:00 INFO  TestSuit1:104 - ENDED: Validate_NumberOfRows
+2016-02-14 18:45:22 INFO  TestSuit1:42 - STARTED: Validate_NumberOfRows
+2016-02-14 18:45:46 INFO  TestSuit1:117 - ENDED: Validate_NumberOfRows
+2016-02-14 18:46:37 INFO  TestSuit1:42 - STARTED: Validate_NumberOfRows
+2016-02-14 18:47:01 INFO  TestSuit1:117 - ENDED: Validate_NumberOfRows
+2016-02-14 18:49:33 INFO  TestSuit1:121 - STARTED: Validate_NeumericboxAtBottom
+2016-02-14 18:49:33 INFO  TestSuit1:126 - ENDED: Validate_NeumericboxAtBottom
+2016-02-14 18:49:33 INFO  TestSuit1:42 - STARTED: Validate_NumberOfRows
+2016-02-14 18:51:26 INFO  TestSuit1:113 - ENDED: Validate_NumberOfRows
+2016-02-14 18:56:44 INFO  TestSuit1:121 - STARTED: Validate_NeumericboxAtBottom
+2016-02-14 18:56:44 INFO  TestSuit1:126 - Number of Pages= 1
+2016-02-14 18:56:44 INFO  TestSuit1:127 - ENDED: Validate_NeumericboxAtBottom
+2016-02-14 18:56:44 INFO  TestSuit1:42 - STARTED: Validate_NumberOfRows
+2016-02-14 18:57:09 INFO  TestSuit1:113 - ENDED: Validate_NumberOfRows
+2016-02-14 19:01:25 INFO  TestSuit1:42 - STARTED: Validate_NumberOfRows
+2016-02-14 19:01:49 INFO  TestSuit1:113 - ENDED: Validate_NumberOfRows
+2016-02-14 19:01:49 INFO  TestSuit1:121 - STARTED: Validate_NeumericboxAtBottom
+2016-02-14 19:01:49 INFO  TestSuit1:126 - Number of Pages= 4
+2016-02-14 19:01:49 INFO  TestSuit1:127 - ENDED: Validate_NeumericboxAtBottom
+2016-02-14 20:36:20 INFO  TestSuit1:39 - STARTED: Validate_NumberOfRows
+2016-02-14 20:36:44 INFO  TestSuit1:120 - ENDED: Validate_NumberOfRows
+2016-02-14 20:36:44 INFO  TestSuit1:128 - STARTED: Validate_NeumericboxAtBottom
+2016-02-14 20:36:44 INFO  TestSuit1:133 - Number of Pages= 4
+2016-02-14 20:36:44 INFO  TestSuit1:134 - ENDED: Validate_NeumericboxAtBottom
+2016-02-14 20:41:36 INFO  TestSuit1:39 - STARTED: Validate_NumberOfRows
+2016-02-14 20:42:25 INFO  TestSuit1:126 - ENDED: Validate_NumberOfRows
+2016-02-14 20:42:25 INFO  TestSuit1:134 - STARTED: Validate_NeumericboxAtBottom
+2016-02-14 20:42:25 INFO  TestSuit1:139 - Number of Pages= 4
+2016-02-14 20:42:25 INFO  TestSuit1:140 - ENDED: Validate_NeumericboxAtBottom
+2016-02-14 20:43:22 INFO  TestSuit1:39 - STARTED: Validate_NumberOfRows
+2016-02-14 20:44:03 INFO  TestSuit1:135 - STARTED: Validate_NeumericboxAtBottom
+2016-02-14 20:45:01 INFO  TestSuit1:39 - STARTED: Validate_NumberOfRows
+2016-02-14 20:45:27 INFO  TestSuit1:127 - ENDED: Validate_NumberOfRows
+2016-02-14 20:45:27 INFO  TestSuit1:135 - STARTED: Validate_NeumericboxAtBottom
+2016-02-14 20:45:27 INFO  TestSuit1:140 - Number of Pages= 4
+2016-02-14 20:45:27 INFO  TestSuit1:141 - ENDED: Validate_NeumericboxAtBottom
+2016-02-14 20:55:29 INFO  TestSuit1:39 - STARTED: Validate_NumberOfRows
+2016-02-14 20:56:26 INFO  TestSuit1:137 - STARTED: Validate_NeumericboxAtBottom
+2016-02-14 20:56:26 INFO  TestSuit1:142 - Number of Pages= 1
+2016-02-14 20:56:26 INFO  TestSuit1:143 - ENDED: Validate_NeumericboxAtBottom
+2016-02-14 20:57:26 INFO  TestSuit1:39 - STARTED: Validate_NumberOfRows
+2016-02-14 20:57:51 INFO  TestSuit1:137 - STARTED: Validate_NeumericboxAtBottom
+2016-02-14 20:57:51 INFO  TestSuit1:142 - Number of Pages= 4
+2016-02-14 20:57:51 INFO  TestSuit1:143 - ENDED: Validate_NeumericboxAtBottom
+2016-02-14 20:58:56 INFO  TestSuit1:39 - STARTED: Validate_NumberOfRows
+2016-02-14 20:59:25 INFO  TestSuit1:129 - ENDED: Validate_NumberOfRows
+2016-02-14 20:59:25 INFO  TestSuit1:137 - STARTED: Validate_NeumericboxAtBottom
+2016-02-14 20:59:25 INFO  TestSuit1:142 - Number of Pages= 4
+2016-02-14 20:59:25 INFO  TestSuit1:143 - ENDED: Validate_NeumericboxAtBottom
+2016-02-14 21:24:34 INFO  TestSuit1:39 - STARTED: Validate_NumberOfRows
+2016-02-14 21:24:42 INFO  TestSuit1:74 - On First Page Previous Disabled Page: 1==true
+2016-02-14 21:24:42 INFO  TestSuit1:75 - On First Page Next Disabled Page: 1==false
+2016-02-14 21:25:03 INFO  TestSuit1:122 - Number of rows in fINALTotal:37
+2016-02-14 21:25:03 INFO  TestSuit1:125 - On Last Page Previous Disabled Page: 4==false
+2016-02-14 21:25:03 INFO  TestSuit1:127 - On Last Page Next Disabled Page: 4==true
+2016-02-14 21:25:03 INFO  TestSuit1:129 - ENDED: Validate_NumberOfRows
+2016-02-14 21:25:03 INFO  TestSuit1:137 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-14 21:25:03 INFO  TestSuit1:143 - Number of Boxes4
+2016-02-14 21:25:03 INFO  TestSuit1:144 - Number of Pages= 4
+2016-02-14 21:25:03 INFO  TestSuit1:146 - ENDED: Validate_NeumericboxAtBottom
+2016-02-14 21:35:58 INFO  TestSuit1:39 - STARTED: Validate_NumberOfRows
+2016-02-14 21:36:05 INFO  TestSuit1:76 - Previous Button is  Disabled on Page no: 1==true
+2016-02-14 21:36:05 INFO  TestSuit1:77 - Next Button is Disabled on Page No. : 1==false
+2016-02-14 21:36:27 INFO  TestSuit1:125 - Number of rows in fINALTotal:37
+2016-02-14 21:36:27 INFO  TestSuit1:131 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-14 21:36:27 INFO  TestSuit1:133 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-14 21:36:27 INFO  TestSuit1:135 - ENDED: Validate_NumberOfRows
+2016-02-14 21:36:27 INFO  TestSuit1:143 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-14 21:36:27 INFO  TestSuit1:149 - Number of Boxes4
+2016-02-14 21:36:27 INFO  TestSuit1:150 - Number of Pages= 4
+2016-02-14 21:36:27 INFO  TestSuit1:152 - ENDED: Validate_NeumericboxAtBottom
+2016-02-14 21:42:40 INFO  TestSuit1:39 - STARTED: Validate_NumberOfRows
+2016-02-14 21:42:50 INFO  TestSuit1:76 - Previous Button is  Disabled on Page no: 1==true
+2016-02-14 21:42:50 INFO  TestSuit1:77 - Next Button is Disabled on Page No. : 1==false
+2016-02-14 21:43:12 INFO  TestSuit1:127 - Number of rows in fINALTotal:37
+2016-02-14 21:43:12 INFO  TestSuit1:133 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-14 21:43:12 INFO  TestSuit1:135 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-14 21:43:12 INFO  TestSuit1:137 - ENDED: Validate_NumberOfRows
+2016-02-14 21:43:12 INFO  TestSuit1:145 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-14 21:43:12 INFO  TestSuit1:151 - Number of Boxes4
+2016-02-14 21:43:12 INFO  TestSuit1:152 - Number of Pages= 4
+2016-02-14 21:43:12 INFO  TestSuit1:154 - ENDED: Validate_NeumericboxAtBottom
+2016-02-14 21:44:01 INFO  TestSuit1:39 - STARTED: Validate_NumberOfRows
+2016-02-14 21:44:09 INFO  TestSuit1:76 - Previous Button is  Disabled on Page no: 1==true
+2016-02-14 21:44:09 INFO  TestSuit1:77 - Next Button is Disabled on Page No. : 1==false
+2016-02-14 21:44:32 INFO  TestSuit1:128 - Number of rows in fINALTotal:37
+2016-02-14 21:44:32 INFO  TestSuit1:134 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-14 21:44:32 INFO  TestSuit1:136 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-14 21:44:32 INFO  TestSuit1:138 - ENDED: Validate_NumberOfRows
+2016-02-14 21:44:32 INFO  TestSuit1:146 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-14 21:44:32 INFO  TestSuit1:152 - Number of Boxes4
+2016-02-14 21:44:32 INFO  TestSuit1:153 - Number of Pages= 4
+2016-02-14 21:44:32 INFO  TestSuit1:155 - ENDED: Validate_NeumericboxAtBottom
+2016-02-15 00:17:18 INFO  TestSuit1:41 - STARTED: Validate_NumberOfRows
+2016-02-15 00:17:27 INFO  TestSuit1:82 - Previous Button is  Disabled on Page no: 1==true
+2016-02-15 00:17:27 INFO  TestSuit1:83 - Next Button is Disabled on Page No. : 1==false
+2016-02-15 00:17:49 INFO  TestSuit1:135 - Number of rows in fINALTotal:37
+2016-02-15 00:17:49 INFO  TestSuit1:141 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-15 00:17:49 INFO  TestSuit1:143 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-15 00:17:49 INFO  TestSuit1:145 - ENDED: Validate_NumberOfRows
+2016-02-15 00:17:49 INFO  TestSuit1:153 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-15 00:17:49 INFO  TestSuit1:159 - Number of Boxes4
+2016-02-15 00:17:49 INFO  TestSuit1:160 - Number of Pages= 4
+2016-02-15 00:17:49 INFO  TestSuit1:162 - ENDED: Validate_NeumericboxAtBottom
+2016-02-15 00:44:32 INFO  TestSuit1:46 - STARTED: Validate_NumberOfRows
+2016-02-15 00:44:40 INFO  TestSuit1:88 - Previous Button is  Disabled on Page no: 1==true
+2016-02-15 00:44:40 INFO  TestSuit1:89 - Next Button is Disabled on Page No. : 1==false
+2016-02-15 00:45:02 INFO  TestSuit1:146 - Number of rows in fINALTotal:37
+2016-02-15 00:45:02 INFO  TestSuit1:153 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-15 00:45:02 INFO  TestSuit1:155 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-15 00:45:02 INFO  TestSuit1:157 - ENDED: Validate_NumberOfRows
+2016-02-15 00:45:02 INFO  TestSuit1:165 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-15 00:45:02 INFO  TestSuit1:171 - Number of Boxes4
+2016-02-15 00:45:02 INFO  TestSuit1:172 - Number of Pages= 4
+2016-02-15 00:45:02 INFO  TestSuit1:174 - ENDED: Validate_NeumericboxAtBottom
+2016-02-15 00:45:02 INFO  TestSuit1:182 - 
+STARTED: Validate_FirstPagePagination
+2016-02-15 00:45:02 INFO  TestSuit1:184 - ENDED: Validate_FirstPagePagination
+2016-02-15 00:45:02 INFO  TestSuit1:190 - 
+STARTED: Validate_FirstPagePagination
+2016-02-15 00:45:02 INFO  TestSuit1:192 - ENDED: Validate_LastPagePagination
+2016-02-15 00:45:02 INFO  TestSuit1:198 - 
+STARTED: Varification of Middle Page
+2016-02-15 00:45:02 INFO  TestSuit1:200 - ENDED: Varification of Middle Page
+2016-02-15 00:45:02 INFO  TestSuit1:206 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-15 00:45:02 INFO  TestSuit1:208 - ENDED: Validate_NumberOfRowsPerPage
+2016-02-15 07:09:59 INFO  TestSuit1:46 - STARTED: Validate_NumberOfRows
+2016-02-15 07:10:07 INFO  TestSuit1:88 - Previous Button is  Disabled on Page no: 1==true
+2016-02-15 07:10:07 INFO  TestSuit1:89 - Next Button is Disabled on Page No. : 1==false
+2016-02-15 07:10:29 INFO  TestSuit1:146 - Number of rows in fINALTotal:37
+2016-02-15 07:10:29 INFO  TestSuit1:153 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-15 07:10:29 INFO  TestSuit1:155 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-15 07:10:29 INFO  TestSuit1:157 - ENDED: Validate_NumberOfRows
+2016-02-15 07:10:29 INFO  TestSuit1:165 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-15 07:10:29 INFO  TestSuit1:171 - Number of Boxes4
+2016-02-15 07:10:29 INFO  TestSuit1:172 - Number of Pages= 4
+2016-02-15 07:10:29 INFO  TestSuit1:174 - ENDED: Validate_NeumericboxAtBottom
+2016-02-15 07:10:29 INFO  TestSuit1:182 - 
+STARTED: Validate_FirstPagePagination
+2016-02-15 07:10:29 INFO  TestSuit1:184 - ENDED: Validate_FirstPagePagination
+2016-02-15 07:10:29 INFO  TestSuit1:190 - 
+STARTED: Validate_FirstPagePagination
+2016-02-15 07:10:29 INFO  TestSuit1:192 - ENDED: Validate_LastPagePagination
+2016-02-15 07:10:29 INFO  TestSuit1:198 - 
+STARTED: Varification of Middle Page
+2016-02-15 07:10:29 INFO  TestSuit1:200 - ENDED: Varification of Middle Page
+2016-02-15 07:10:29 INFO  TestSuit1:206 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-15 07:10:29 INFO  TestSuit1:208 - ENDED: Validate_NumberOfRowsPerPage
+2016-02-15 11:30:11 INFO  TestSuit1:39 - STARTED: Validate_NumberOfRows
+2016-02-15 11:31:10 INFO  TestSuit1:238 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-15 11:31:10 INFO  TestSuit1:262 - 
+STARTED: Validate_FirstPagePagination
+2016-02-15 11:31:10 INFO  TestSuit1:270 - 
+STARTED: Validate_FirstPagePagination
+2016-02-15 11:31:10 INFO  TestSuit1:277 - 
+STARTED: Varification of Middle Page
+2016-02-15 11:31:10 INFO  TestSuit1:285 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-15 23:20:54 INFO  PaginationTest:39 - STARTED: Validate_NumberOfRows
+2016-02-15 23:21:05 INFO  PaginationTest:94 - Previous Button is  Disabled on Page no: 1==true
+2016-02-15 23:21:05 INFO  PaginationTest:99 - Next Button is Disabled on Page No. : 1==false
+2016-02-15 23:21:28 INFO  PaginationTest:193 - Number of rows in fINALTotal:36
+2016-02-15 23:21:28 INFO  PaginationTest:204 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-15 23:21:28 INFO  PaginationTest:210 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-15 23:21:28 INFO  PaginationTest:231 - ENDED: Validate_NumberOfRows
+2016-02-15 23:21:28 INFO  PaginationTest:240 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-15 23:21:28 INFO  PaginationTest:255 - Number of Boxes4
+2016-02-15 23:21:28 INFO  PaginationTest:256 - Number of Pages= 4
+2016-02-15 23:21:28 INFO  PaginationTest:258 - ENDED: Validate_NeumericboxAtBottom
+2016-02-15 23:21:28 INFO  PaginationTest:264 - 
+STARTED: Validate_FirstPagePagination
+2016-02-15 23:21:28 INFO  PaginationTest:266 - ENDED: Validate_FirstPagePagination
+2016-02-15 23:21:28 INFO  PaginationTest:272 - 
+STARTED: Validate_FirstPagePagination
+2016-02-15 23:21:28 INFO  PaginationTest:274 - ENDED: Validate_LastPagePagination
+2016-02-15 23:21:28 INFO  PaginationTest:279 - 
+STARTED: Varification of Middle Page
+2016-02-15 23:21:28 INFO  PaginationTest:281 - ENDED: Varification of Middle Page
+2016-02-15 23:21:28 INFO  PaginationTest:287 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-15 23:21:28 INFO  PaginationTest:289 - ENDED: Validate_NumberOfRowsPerPage
+2016-02-16 10:01:34 INFO  PaginationTest:40 - STARTED: Validate_NumberOfRows
+2016-02-16 10:01:42 INFO  PaginationTest:95 - Previous Button is  Disabled on Page no: 1==true
+2016-02-16 10:01:42 INFO  PaginationTest:100 - Next Button is Disabled on Page No. : 1==false
+2016-02-16 10:02:04 INFO  PaginationTest:195 - Number of rows in fINALTotal:36
+2016-02-16 10:02:04 INFO  PaginationTest:206 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-16 10:02:04 INFO  PaginationTest:212 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-16 10:02:04 INFO  PaginationTest:233 - ENDED: Validate_NumberOfRows
+2016-02-16 10:02:04 INFO  PaginationTest:242 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-16 10:02:04 INFO  PaginationTest:257 - Number of Boxes4
+2016-02-16 10:02:04 INFO  PaginationTest:258 - Number of Pages= 4
+2016-02-16 10:02:04 INFO  PaginationTest:260 - ENDED: Validate_NeumericboxAtBottom
+2016-02-16 10:02:04 INFO  PaginationTest:266 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 10:02:04 INFO  PaginationTest:268 - ENDED: Validate_FirstPagePagination
+2016-02-16 10:02:04 INFO  PaginationTest:274 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 10:02:04 INFO  PaginationTest:276 - ENDED: Validate_LastPagePagination
+2016-02-16 10:02:04 INFO  PaginationTest:281 - 
+STARTED: Varification of Middle Page
+2016-02-16 10:02:04 INFO  PaginationTest:283 - ENDED: Varification of Middle Page
+2016-02-16 10:02:04 INFO  PaginationTest:289 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-16 10:02:04 INFO  PaginationTest:291 - ENDED: Validate_NumberOfRowsPerPage
+2016-02-16 10:03:22 INFO  PaginationTest:40 - STARTED: Validate_NumberOfRows
+2016-02-16 10:03:30 INFO  PaginationTest:95 - Previous Button is  Disabled on Page no: 1==true
+2016-02-16 10:03:30 INFO  PaginationTest:100 - Next Button is Disabled on Page No. : 1==false
+2016-02-16 10:03:53 INFO  PaginationTest:195 - Number of rows in fINALTotal:36
+2016-02-16 10:03:53 INFO  PaginationTest:206 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-16 10:03:53 INFO  PaginationTest:212 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-16 10:03:53 INFO  PaginationTest:233 - ENDED: Validate_NumberOfRows
+2016-02-16 10:03:53 INFO  PaginationTest:242 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-16 10:03:53 INFO  PaginationTest:257 - Number of Boxes4
+2016-02-16 10:03:53 INFO  PaginationTest:258 - Number of Pages= 4
+2016-02-16 10:03:53 INFO  PaginationTest:260 - ENDED: Validate_NeumericboxAtBottom
+2016-02-16 10:03:53 INFO  PaginationTest:266 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 10:03:53 INFO  PaginationTest:268 - ENDED: Validate_FirstPagePagination
+2016-02-16 10:03:53 INFO  PaginationTest:274 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 10:03:53 INFO  PaginationTest:276 - ENDED: Validate_LastPagePagination
+2016-02-16 10:03:53 INFO  PaginationTest:281 - 
+STARTED: Varification of Middle Page
+2016-02-16 10:03:53 INFO  PaginationTest:283 - ENDED: Varification of Middle Page
+2016-02-16 10:03:53 INFO  PaginationTest:289 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-16 10:03:53 INFO  PaginationTest:291 - ENDED: Validate_NumberOfRowsPerPage
+2016-02-16 10:30:52 INFO  PaginationTest:38 - STARTED: Validate_NumberOfRows
+2016-02-16 10:31:01 INFO  PaginationTest:87 - Previous Button is  Disabled on Page no: 1==true
+2016-02-16 10:31:01 INFO  PaginationTest:92 - Next Button is Disabled on Page No. : 1==false
+2016-02-16 10:31:23 INFO  PaginationTest:197 - Number of rows in fINALTotal:36
+2016-02-16 10:31:23 INFO  PaginationTest:208 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-16 10:31:23 INFO  PaginationTest:214 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-16 10:31:23 INFO  PaginationTest:235 - ENDED: Validate_NumberOfRows
+2016-02-16 10:31:24 INFO  PaginationTest:244 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-16 10:31:24 INFO  PaginationTest:259 - Number of Boxes4
+2016-02-16 10:31:24 INFO  PaginationTest:260 - Number of Pages= 4
+2016-02-16 10:31:24 INFO  PaginationTest:262 - ENDED: Validate_NeumericboxAtBottom
+2016-02-16 10:31:24 INFO  PaginationTest:268 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 10:31:24 INFO  PaginationTest:270 - ENDED: Validate_FirstPagePagination
+2016-02-16 10:31:24 INFO  PaginationTest:276 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 10:31:24 INFO  PaginationTest:278 - ENDED: Validate_LastPagePagination
+2016-02-16 10:31:24 INFO  PaginationTest:283 - 
+STARTED: Varification of Middle Page
+2016-02-16 10:31:24 INFO  PaginationTest:285 - ENDED: Varification of Middle Page
+2016-02-16 10:31:24 INFO  PaginationTest:291 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-16 10:31:24 INFO  PaginationTest:293 - ENDED: Validate_NumberOfRowsPerPage
+2016-02-16 14:37:20 INFO  PaginationTest:38 - STARTED: Validate_NumberOfRows
+2016-02-16 14:40:22 INFO  PaginationTest:245 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-16 14:40:22 INFO  PaginationTest:269 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 14:40:22 INFO  PaginationTest:277 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 14:40:22 INFO  PaginationTest:284 - 
+STARTED: Varification of Middle Page
+2016-02-16 14:40:22 INFO  PaginationTest:292 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-16 14:52:34 INFO  PaginationTest:38 - STARTED: Validate_NumberOfRows
+2016-02-16 14:54:43 INFO  PaginationTest:253 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-16 14:54:43 INFO  PaginationTest:277 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 14:54:43 INFO  PaginationTest:285 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 14:54:43 INFO  PaginationTest:292 - 
+STARTED: Varification of Middle Page
+2016-02-16 14:54:43 INFO  PaginationTest:300 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-16 14:56:45 INFO  PaginationTest:38 - STARTED: Validate_NumberOfRows
+2016-02-16 14:56:55 INFO  PaginationTest:96 - Previous Button is  Disabled on Page no: 1==true
+2016-02-16 14:56:55 INFO  PaginationTest:101 - Next Button is Disabled on Page No. : 1==false
+2016-02-16 14:57:17 INFO  PaginationTest:206 - Number of rows in fINALTotal:36
+2016-02-16 14:57:17 INFO  PaginationTest:217 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-16 14:57:17 INFO  PaginationTest:223 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-16 14:57:17 INFO  PaginationTest:244 - ENDED: Validate_NumberOfRows
+2016-02-16 14:57:17 INFO  PaginationTest:253 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-16 14:57:17 INFO  PaginationTest:268 - Number of Boxes4
+2016-02-16 14:57:17 INFO  PaginationTest:269 - Number of Pages= 4
+2016-02-16 14:57:17 INFO  PaginationTest:271 - ENDED: Validate_NeumericboxAtBottom
+2016-02-16 14:57:17 INFO  PaginationTest:277 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 14:57:17 INFO  PaginationTest:279 - ENDED: Validate_FirstPagePagination
+2016-02-16 14:57:17 INFO  PaginationTest:285 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 14:57:17 INFO  PaginationTest:287 - ENDED: Validate_LastPagePagination
+2016-02-16 14:57:17 INFO  PaginationTest:292 - 
+STARTED: Varification of Middle Page
+2016-02-16 14:57:17 INFO  PaginationTest:294 - ENDED: Varification of Middle Page
+2016-02-16 14:57:17 INFO  PaginationTest:300 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-16 14:57:17 INFO  PaginationTest:302 - ENDED: Validate_NumberOfRowsPerPage
+2016-02-16 15:09:21 INFO  PaginationTest:38 - STARTED: Validate_NumberOfRows
+2016-02-16 15:18:21 INFO  PaginationTest:38 - STARTED: Validate_NumberOfRows
+2016-02-16 15:18:35 INFO  PaginationTest:289 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-16 15:18:35 INFO  PaginationTest:304 - Number of Boxes1
+2016-02-16 15:18:35 INFO  PaginationTest:305 - Number of Pages= 1
+2016-02-16 15:18:35 INFO  PaginationTest:307 - ENDED: Validate_NeumericboxAtBottom
+2016-02-16 15:18:35 INFO  PaginationTest:313 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 15:18:35 INFO  PaginationTest:315 - ENDED: Validate_FirstPagePagination
+2016-02-16 15:18:35 INFO  PaginationTest:321 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 15:18:35 INFO  PaginationTest:323 - ENDED: Validate_LastPagePagination
+2016-02-16 15:18:35 INFO  PaginationTest:328 - 
+STARTED: Varification of Middle Page
+2016-02-16 15:18:35 INFO  PaginationTest:330 - ENDED: Varification of Middle Page
+2016-02-16 15:18:35 INFO  PaginationTest:336 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-16 15:31:23 INFO  PaginationTest:286 - STARTED: Validate_NumberOfRows
+2016-02-16 15:31:35 INFO  PaginationTest:323 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-16 15:31:35 INFO  PaginationTest:338 - Number of Boxes1
+2016-02-16 15:31:35 INFO  PaginationTest:339 - Number of Pages= 1
+2016-02-16 15:31:35 INFO  PaginationTest:341 - ENDED: Validate_NeumericboxAtBottom
+2016-02-16 15:31:35 INFO  PaginationTest:347 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 15:31:35 INFO  PaginationTest:349 - ENDED: Validate_FirstPagePagination
+2016-02-16 15:31:35 INFO  PaginationTest:355 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 15:31:35 INFO  PaginationTest:357 - ENDED: Validate_LastPagePagination
+2016-02-16 15:31:35 INFO  PaginationTest:362 - 
+STARTED: Varification of Middle Page
+2016-02-16 15:31:35 INFO  PaginationTest:364 - ENDED: Varification of Middle Page
+2016-02-16 15:31:35 INFO  PaginationTest:370 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-16 15:33:43 INFO  PaginationTest:286 - STARTED: Validate_NumberOfRows
+2016-02-16 15:33:52 INFO  PaginationTest:102 - Previous Button is  Disabled on Page no: 1==true
+2016-02-16 15:33:52 INFO  PaginationTest:107 - Next Button is Disabled on Page No. : 1==false
+2016-02-16 15:34:14 INFO  PaginationTest:222 - Number of rows in fINALTotal:36
+2016-02-16 15:34:14 INFO  PaginationTest:233 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-16 15:34:14 INFO  PaginationTest:239 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-16 15:34:14 INFO  PaginationTest:261 - ENDED: Validate_NumberOfRows
+2016-02-16 15:34:14 INFO  PaginationTest:323 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-16 15:34:14 INFO  PaginationTest:338 - Number of Boxes4
+2016-02-16 15:34:14 INFO  PaginationTest:339 - Number of Pages= 4
+2016-02-16 15:34:14 INFO  PaginationTest:341 - ENDED: Validate_NeumericboxAtBottom
+2016-02-16 15:34:14 INFO  PaginationTest:347 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 15:34:14 INFO  PaginationTest:349 - ENDED: Validate_FirstPagePagination
+2016-02-16 15:34:14 INFO  PaginationTest:355 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 15:34:14 INFO  PaginationTest:357 - ENDED: Validate_LastPagePagination
+2016-02-16 15:34:14 INFO  PaginationTest:362 - 
+STARTED: Varification of Middle Page
+2016-02-16 15:34:14 INFO  PaginationTest:364 - ENDED: Varification of Middle Page
+2016-02-16 15:34:14 INFO  PaginationTest:370 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-16 15:34:14 INFO  PaginationTest:372 - ENDED: Validate_NumberOfRowsPerPage
+2016-02-16 15:39:20 INFO  PaginationTest:262 - STARTED: Validate_NumberOfRows
+2016-02-16 15:39:29 INFO  PaginationTest:101 - Previous Button is  Disabled on Page no: 1==true
+2016-02-16 15:39:29 INFO  PaginationTest:106 - Next Button is Disabled on Page No. : 1==false
+2016-02-16 15:39:51 INFO  PaginationTest:223 - Number of rows in fINALTotal:36
+2016-02-16 15:39:51 INFO  PaginationTest:234 - Previous Button is Disabled on Page No. (Last Page): 4==false
+2016-02-16 15:39:51 INFO  PaginationTest:240 - Next Button is Disabled on Page No. (Last Page) 4==true
+2016-02-16 15:39:51 INFO  PaginationTest:251 - ENDED: Validate_NumberOfRows
+2016-02-16 15:39:51 INFO  PaginationTest:299 - 
+STARTED: Validate_NeumericboxAtBottom
+2016-02-16 15:39:51 INFO  PaginationTest:314 - Number of Boxes4
+2016-02-16 15:39:51 INFO  PaginationTest:315 - Number of Pages= 4
+2016-02-16 15:39:51 INFO  PaginationTest:317 - ENDED: Validate_NeumericboxAtBottom
+2016-02-16 15:39:51 INFO  PaginationTest:323 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 15:39:51 INFO  PaginationTest:325 - ENDED: Validate_FirstPagePagination
+2016-02-16 15:39:51 INFO  PaginationTest:331 - 
+STARTED: Validate_FirstPagePagination
+2016-02-16 15:39:51 INFO  PaginationTest:333 - ENDED: Validate_LastPagePagination
+2016-02-16 15:39:51 INFO  PaginationTest:338 - 
+STARTED: Varification of Middle Page
+2016-02-16 15:39:51 INFO  PaginationTest:340 - ENDED: Varification of Middle Page
+2016-02-16 15:39:51 INFO  PaginationTest:346 - 
+STARTED: Validate_NumberOfRowsPerPage
+2016-02-16 15:39:51 INFO  PaginationTest:348 - ENDED: Validate_NumberOfRowsPerPage
