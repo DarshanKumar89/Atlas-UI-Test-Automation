@@ -5,13 +5,22 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePageElements {
 
-	@FindBy(css = "div[data-ng-controller='HeaderController']")
-	public WebElement headerController;
+	/*@FindBy(css = "div[data-ng-controller='HeaderController']")
+	public WebElement headerController;*/
 
-	@FindBy(css = ".mainLogo")
+	@FindBy(className= "main-logo")
+	public WebElement mainLogo_exist;
+	
+	/*@FindBy(css = ".mainLogo")
+	public WebElement atlasLogo;*/
+	
+	@FindBy(css = ".main-logo")
 	public WebElement atlasLogo;
-
-	@FindBy(css = ".menuBar")
+	
+	/*@FindBy(css = ".menuBar")
+	public WebElement menuBar;*/
+	
+	@FindBy(css = ".menu-bar")
 	public WebElement menuBar;
 	
 	@FindBy(xpath = "//*[contains(text(), 'Help')]")

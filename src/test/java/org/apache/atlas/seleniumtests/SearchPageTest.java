@@ -166,6 +166,15 @@ public class SearchPageTest extends WebDriverWrapper {
 		LOGGER.info("ENDED: Test validateFunctionalTestTag");
 	}
 	
+
+	
+	
+	
+
+	
+	
+	
+	
 	//TODO: Bug [#HDPDGI-320] in application so commented the following test
 	/*@Test
 	public void validateToolsInSearchResult(){
@@ -181,5 +190,9 @@ public class SearchPageTest extends WebDriverWrapper {
 		}
 		LOGGER.info("STARTED: Test validateToolsInSearchResult");
 	}*/
+	
+	
+
+	
 
 }

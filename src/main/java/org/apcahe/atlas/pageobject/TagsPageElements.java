@@ -10,7 +10,11 @@ public class TagsPageElements extends HomePageElements {
 	@FindBy(css = "a[href='#!/tags']")
 	public WebElement tagTabLink;
 
-	@FindBy(css = ".appForm h4")
+	/*@FindBy(css = ".appForm h4")
+	public WebElement tagPageHeader;*/
+	
+	
+	@FindBy(css = ".app-form h4")
 	public WebElement tagPageHeader;
 
 	@FindBy(css = ".control-label")

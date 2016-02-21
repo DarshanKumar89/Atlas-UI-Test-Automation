@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" total="42" passed="36">
+  <reporter-output>
+    <line>
+      <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateAtlasLogo.jpg]]>
+    </line>
+    <line>
+      <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateHelpLink.jpg]]>
+    </line>
+    <line>
+      <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateFunctionalTestTag.jpg]]>
+    </line>
+    <line>
+      <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\duplicateTagName.jpg]]>
+    </line>
+    <line>
+      <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateBackToPageFunctionality.jpg]]>
+    </line>
+    <line>
+      <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateLineagePage.jpg]]>
+    </line>
+  </reporter-output>
+  <suite name="AtlasSuite" duration-ms="599501" started-at="2016-02-21T14:58:24Z" finished-at="2016-02-21T15:08:23Z">
+    <groups>
+    </groups>
+    <test name="AtlasUIAutomationTests" duration-ms="599501" started-at="2016-02-21T14:58:24Z" finished-at="2016-02-21T15:08:23Z">
+      <class name="org.apache.atlas.seleniumtests.HomePageTest">
+        <test-method status="PASS" signature="setup(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@1da477bf]" name="setup" is-config="true" duration-ms="4881" started-at="2016-02-21T18:58:12Z" description="Test setup" finished-at="2016-02-21T18:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435invalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.PaginationTest@18b1abcd]" name="setup" is-config="true" duration-ms="6424" started-at="2016-02-21T18:58:17Z" description="Test setup" finished-at="2016-02-21T18:58:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435invalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loadHomeTest(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@1da477bf]" name="loadHomeTest" is-config="true" duration-ms="6796" started-at="2016-02-21T18:58:24Z" description="HomePage Test Setup" finished-at="2016-02-21T18:58:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435invalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadHomeTest -->
+        <test-method status="PASS" signature="validateAboutLink()[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@1da477bf]" name="validateAboutLink" duration-ms="20567" started-at="2016-02-21T18:58:30Z" finished-at="2016-02-21T18:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAboutLink -->
+        <test-method status="FAIL" signature="validateAtlasLogo()[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@1da477bf]" name="validateAtlasLogo" duration-ms="137" started-at="2016-02-21T18:58:51Z" finished-at="2016-02-21T18:58:51Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (156, 19). Other element would receive the click: <div style="z-index: 1050; display: block;" animate="animate" index="0" size="lg" modal-window="" tabindex="-1" role="dialog" class="modal fade ng-isolate-scope in" ng-class="{in: animate}" ng-style="{'z-index': 1050 + index*10, display: 'block'}" ng-click="close($event)"></div>
+Command duration or timeout: 64 milliseconds
+Build info: version: '2.50.1', revision: 'd7fc91b', time: '2016-01-29 19:04:49'
+System info: host: 'Deepak-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 9a2cb66c-051d-409d-962c-60a62f3ab099
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (156, 19). Other element would receive the click: <div style="z-index: 1050; display: block;" animate="animate" index="0" size="lg" modal-window="" tabindex="-1" role="dialog" class="modal fade ng-isolate-scope in" ng-class="{in: animate}" ng-style="{'z-index': 1050 + index*10, display: 'block'}" ng-click="close($event)"></div>
+Command duration or timeout: 64 milliseconds
+Build info: version: '2.50.1', revision: 'd7fc91b', time: '2016-01-29 19:04:49'
+System info: host: 'Deepak-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 9a2cb66c-051d-409d-962c-60a62f3ab099
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.atlas.ui.pages.HomePage.validateLogo(HomePage.java:135)
+	at org.apache.atlas.seleniumtests.HomePageTest.validateAtlasLogo(HomePageTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateAtlasLogo.jpg]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateAtlasLogo -->
+        <test-method status="FAIL" signature="validateHelpLink()[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@1da477bf]" name="validateHelpLink" duration-ms="15119" started-at="2016-02-21T18:58:51Z" finished-at="2016-02-21T18:59:06Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (1172, 20). Other element would receive the click: <div style="z-index: 1050; display: block;" animate="animate" index="0" size="lg" modal-window="" tabindex="-1" role="dialog" class="modal fade ng-isolate-scope in" ng-class="{in: animate}" ng-style="{'z-index': 1050 + index*10, display: 'block'}" ng-click="close($event)"></div>
+Command duration or timeout: 63 milliseconds
+Build info: version: '2.50.1', revision: 'd7fc91b', time: '2016-01-29 19:04:49'
+System info: host: 'Deepak-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 9a2cb66c-051d-409d-962c-60a62f3ab099
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (1172, 20). Other element would receive the click: <div style="z-index: 1050; display: block;" animate="animate" index="0" size="lg" modal-window="" tabindex="-1" role="dialog" class="modal fade ng-isolate-scope in" ng-class="{in: animate}" ng-style="{'z-index': 1050 + index*10, display: 'block'}" ng-click="close($event)"></div>
+Command duration or timeout: 63 milliseconds
+Build info: version: '2.50.1', revision: 'd7fc91b', time: '2016-01-29 19:04:49'
+System info: host: 'Deepak-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 9a2cb66c-051d-409d-962c-60a62f3ab099
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at org.atlas.ui.pages.HomePage.clickOnMenu(HomePage.java:86)
+	at org.atlas.ui.pages.HomePage.validateLink(HomePage.java:70)
+	at org.apache.atlas.seleniumtests.HomePageTest.validateHelpLink(HomePageTest.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateHelpLink.jpg]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateHelpLink -->
+        <test-method status="PASS" signature="validateMenuLinks()[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@1da477bf]" name="validateMenuLinks" duration-ms="59" started-at="2016-02-21T18:59:06Z" finished-at="2016-02-21T18:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMenuLinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@1da477bf]" name="tearDown" is-config="true" duration-ms="872" started-at="2016-02-21T19:08:23Z" finished-at="2016-02-21T19:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.atlas.seleniumtests.PaginationTest@18b1abcd]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-02-21T19:08:24Z" finished-at="2016-02-21T19:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.apache.atlas.seleniumtests.HomePageTest -->
+      <class name="org.apache.atlas.seleniumtests.LineagePageTest">
+        <test-method status="PASS" signature="loadLineagePageTest(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.LineagePageTest@103c0cfb]" name="loadLineagePageTest" is-config="true" duration-ms="1195" started-at="2016-02-21T19:06:11Z" description="LineagePage Test Setup" finished-at="2016-02-21T19:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435invalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLineagePageTest -->
+        <test-method status="PASS" signature="testPageElementsFromSearchPage()[pri:0, instance:org.apache.atlas.seleniumtests.LineagePageTest@103c0cfb]" name="testPageElementsFromSearchPage" duration-ms="3238" started-at="2016-02-21T19:06:13Z" finished-at="2016-02-21T19:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageElementsFromSearchPage -->
+        <test-method status="FAIL" signature="validateBackToPageFunctionality(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.LineagePageTest@103c0cfb]" name="validateBackToPageFunctionality" duration-ms="40192" started-at="2016-02-21T19:06:16Z" data-provider="lineageData" finished-at="2016-02-21T19:06:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[BackToPage link enabled expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: BackToPage link enabled expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:288)
+	at org.apache.atlas.seleniumtests.LineagePageTest.validateBackToPageFunctionality(LineagePageTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateBackToPageFunctionality.jpg]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBackToPageFunctionality -->
+        <test-method status="FAIL" signature="validateLineagePage(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.LineagePageTest@103c0cfb]" name="validateLineagePage" duration-ms="46784" started-at="2016-02-21T19:06:56Z" data-provider="guid" finished-at="2016-02-21T19:07:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fact:30f27e78-07f8-433b-8bef-fbc7d380cd10]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Graphs Section loaded expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Graphs Section loaded expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:288)
+	at org.apache.atlas.seleniumtests.LineagePageTest.validateLineagePage(LineagePageTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateLineagePage.jpg]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLineagePage -->
+        <test-method status="PASS" signature="validateLineagePageTabs(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.LineagePageTest@103c0cfb]" name="validateLineagePageTabs" duration-ms="40188" started-at="2016-02-21T19:07:43Z" data-provider="lineageData" finished-at="2016-02-21T19:08:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLineagePageTabs -->
+      </class> <!-- org.apache.atlas.seleniumtests.LineagePageTest -->
+      <class name="org.apache.atlas.seleniumtests.SearchPageTest">
+        <test-method status="PASS" signature="loadSearchTest(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="loadSearchTest" is-config="true" duration-ms="1342" started-at="2016-02-21T18:59:32Z" description="SearchPage Test Setup" finished-at="2016-02-21T18:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435invalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadSearchTest -->
+        <test-method status="PASS" signature="invalidSearchResult(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="invalidSearchResult" duration-ms="13616" started-at="2016-02-21T18:59:34Z" data-provider="invalidSearchDataFeed" finished-at="2016-02-21T18:59:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSearchResult -->
+        <test-method status="PASS" signature="testPageElementsFromSearchPage()[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="testPageElementsFromSearchPage" duration-ms="3243" started-at="2016-02-21T18:59:47Z" finished-at="2016-02-21T18:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageElementsFromSearchPage -->
+        <test-method status="FAIL" signature="validateFunctionalTestTag()[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateFunctionalTestTag" duration-ms="10122" started-at="2016-02-21T18:59:50Z" finished-at="2016-02-21T19:00:01Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Validating tag in search page tags expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Validating tag in search page tags expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.apache.atlas.seleniumtests.SearchPageTest.validateFunctionalTestTag(SearchPageTest.java:165)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateFunctionalTestTag.jpg]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFunctionalTestTag -->
+        <test-method status="PASS" signature="validateSearchFunctionalty()[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchFunctionalty" duration-ms="13297" started-at="2016-02-21T19:00:01Z" finished-at="2016-02-21T19:00:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchFunctionalty -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13537" started-at="2016-02-21T19:00:14Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:00:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Column select Column.nameÂ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13456" started-at="2016-02-21T19:00:27Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from DB select DB.name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13414" started-at="2016-02-21T19:00:41Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:00:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from Table select Table.name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13485" started-at="2016-02-21T19:00:54Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:01:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from Table select Table -Â ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13629" started-at="2016-02-21T19:01:08Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:01:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from Table select Table.name , Table.ownerÂ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13697" started-at="2016-02-21T19:01:21Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from Table select Table.name, Table.owner, Table.creteTime]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13850" started-at="2016-02-21T19:01:35Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:01:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from DB select DB.name, DB.createTime]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13553" started-at="2016-02-21T19:01:49Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:02:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from DB select DB.name=â€˜sales']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13544" started-at="2016-02-21T19:02:02Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:02:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from DB select DB.name=â€˜Salesâ€™Â ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13461" started-at="2016-02-21T19:02:16Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:02:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Table select name,owner,createTime]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13503" started-at="2016-02-21T19:02:30Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from Table select Table.name, Table.ownerÂ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13442" started-at="2016-02-21T19:02:43Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:02:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from table select owner='joe']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchQueries" duration-ms="13433" started-at="2016-02-21T19:02:56Z" data-provider="searchDataFeed" finished-at="2016-02-21T19:03:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from hive_table select tableName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchResultCount()[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateSearchResultCount" duration-ms="13683" started-at="2016-02-21T19:03:10Z" finished-at="2016-02-21T19:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchResultCount -->
+        <test-method status="PASS" signature="validateTableHeaders([Ljava.lang.String;)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateTableHeaders" duration-ms="75" started-at="2016-02-21T19:03:24Z" data-provider="searchTableHeaders" finished-at="2016-02-21T19:03:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4086c53b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTableHeaders -->
+        <test-method status="PASS" signature="validateTagInSearchResult()[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateTagInSearchResult" duration-ms="28444" started-at="2016-02-21T19:03:24Z" finished-at="2016-02-21T19:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTagInSearchResult -->
+        <test-method status="PASS" signature="validateTagSearchResult()[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateTagSearchResult" duration-ms="61" started-at="2016-02-21T19:03:52Z" finished-at="2016-02-21T19:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTagSearchResult -->
+        <test-method status="PASS" signature="validateTagSectionInSearchPage()[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@38862c65]" name="validateTagSectionInSearchPage" duration-ms="12" started-at="2016-02-21T19:03:52Z" finished-at="2016-02-21T19:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTagSectionInSearchPage -->
+      </class> <!-- org.apache.atlas.seleniumtests.SearchPageTest -->
+      <class name="org.apache.atlas.seleniumtests.PaginationTest">
+        <test-method status="PASS" signature="loadPaginationTest(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.PaginationTest@18b1abcd]" name="loadPaginationTest" is-config="true" duration-ms="1309" started-at="2016-02-21T18:59:06Z" description="Pagination Test Setup" finished-at="2016-02-21T18:59:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435invalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPaginationTest -->
+        <test-method status="PASS" signature="Validate_NumberOfRows()[pri:0, instance:org.apache.atlas.seleniumtests.PaginationTest@18b1abcd]" name="Validate_NumberOfRows" duration-ms="24604" started-at="2016-02-21T18:59:08Z" finished-at="2016-02-21T18:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_NumberOfRows -->
+        <test-method status="PASS" signature="Validate_NeumericboxAtBottom()[pri:1, instance:org.apache.atlas.seleniumtests.PaginationTest@18b1abcd]" name="Validate_NeumericboxAtBottom" duration-ms="16" started-at="2016-02-21T19:08:23Z" finished-at="2016-02-21T19:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_NeumericboxAtBottom -->
+        <test-method status="PASS" signature="Validate_FirstPagePagination()[pri:2, instance:org.apache.atlas.seleniumtests.PaginationTest@18b1abcd]" name="Validate_FirstPagePagination" duration-ms="15" started-at="2016-02-21T19:08:23Z" finished-at="2016-02-21T19:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FirstPagePagination -->
+        <test-method status="PASS" signature="Validate_LastPagePagination()[pri:3, instance:org.apache.atlas.seleniumtests.PaginationTest@18b1abcd]" name="Validate_LastPagePagination" duration-ms="15" started-at="2016-02-21T19:08:23Z" finished-at="2016-02-21T19:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_LastPagePagination -->
+        <test-method status="PASS" signature="MiddlePageOfPaginationVarification()[pri:4, instance:org.apache.atlas.seleniumtests.PaginationTest@18b1abcd]" name="MiddlePageOfPaginationVarification" duration-ms="9" started-at="2016-02-21T19:08:23Z" finished-at="2016-02-21T19:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MiddlePageOfPaginationVarification -->
+        <test-method status="PASS" signature="Validate_NumberOfRowsPerPage()[pri:5, instance:org.apache.atlas.seleniumtests.PaginationTest@18b1abcd]" name="Validate_NumberOfRowsPerPage" duration-ms="9" started-at="2016-02-21T19:08:23Z" finished-at="2016-02-21T19:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_NumberOfRowsPerPage -->
+      </class> <!-- org.apache.atlas.seleniumtests.PaginationTest -->
+      <class name="org.apache.atlas.seleniumtests.TagsPageTest">
+        <test-method status="PASS" signature="loadTagsTest(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="loadTagsTest" is-config="true" duration-ms="1390" started-at="2016-02-21T19:03:52Z" description="TagsPage Test Setup" finished-at="2016-02-21T19:03:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435invalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTagsTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-02-21T19:03:54Z" finished-at="2016-02-21T19:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addFunctionalTestTag()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="addFunctionalTestTag" duration-ms="33415" started-at="2016-02-21T19:03:54Z" finished-at="2016-02-21T19:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFunctionalTestTag -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-02-21T19:04:27Z" finished-at="2016-02-21T19:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createTagWithAttribute()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="createTagWithAttribute" duration-ms="33669" started-at="2016-02-21T19:04:27Z" finished-at="2016-02-21T19:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTagWithAttribute -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-02-21T19:05:01Z" finished-at="2016-02-21T19:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="duplicateTagName()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="duplicateTagName" duration-ms="73" started-at="2016-02-21T19:05:01Z" finished-at="2016-02-21T19:05:01Z">
+          <exception class="org.openqa.selenium.InvalidElementStateException">
+            <message>
+              <![CDATA[Element is disabled and so may not be used for actions
+Command duration or timeout: 8 milliseconds
+Build info: version: '2.50.1', revision: 'd7fc91b', time: '2016-01-29 19:04:49'
+System info: host: 'Deepak-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 9a2cb66c-051d-409d-962c-60a62f3ab099
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidElementStateException: Element is disabled and so may not be used for actions
+Command duration or timeout: 8 milliseconds
+Build info: version: '2.50.1', revision: 'd7fc91b', time: '2016-01-29 19:04:49'
+System info: host: 'Deepak-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 9a2cb66c-051d-409d-962c-60a62f3ab099
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)
+	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy12.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:364)
+	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.apache.atlas.objectwrapper.WebElementWrapper.clearAndSendKeys(WebElementWrapper.java:19)
+	at org.atlas.ui.pages.TagsPage.enterTagName(TagsPage.java:70)
+	at org.atlas.ui.pages.TagsPage.createExistingTag(TagsPage.java:109)
+	at org.apache.atlas.seleniumtests.TagsPageTest.duplicateTagName(TagsPageTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.InvalidElementStateException: Element is disabled and so may not be used for actions
+Build info: version: '2.50.1', revision: 'd7fc91b', time: '2016-01-29 19:04:49'
+System info: host: 'Deepak-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.enabled(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10047)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12578)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12595)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12600)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12542)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
+          <reporter-output>
+            <line>
+              <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\duplicateTagName.jpg]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- duplicateTagName -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-02-21T19:05:01Z" finished-at="2016-02-21T19:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testPageElementsFromTagsTab()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="testPageElementsFromTagsTab" duration-ms="3323" started-at="2016-02-21T19:05:01Z" finished-at="2016-02-21T19:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageElementsFromTagsTab -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-02-21T19:05:04Z" finished-at="2016-02-21T19:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateFunctionalTestTag()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="validateFunctionalTestTag" duration-ms="34056" started-at="2016-02-21T19:05:04Z" finished-at="2016-02-21T19:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFunctionalTestTag -->
+        <test-method status="PASS" signature="validateTagsPage()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="validateTagsPage" duration-ms="33294" started-at="2016-02-21T19:05:38Z" finished-at="2016-02-21T19:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTagsPage -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-02-21T19:05:38Z" finished-at="2016-02-21T19:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- org.apache.atlas.seleniumtests.TagsPageTest -->
+    </test> <!-- AtlasUIAutomationTests -->
+  </suite> <!-- AtlasSuite -->
+</testng-results>

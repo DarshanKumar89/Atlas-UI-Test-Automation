@@ -19,10 +19,12 @@
 package org.apache.atlas.objectwrapper;
 
 import org.apache.atlas.seleniumtests.HomePageTest;
+import org.apache.atlas.seleniumtests.PaginationTest;
 import org.apache.atlas.utilities.AtlasDriverUtility;
 import org.apache.log4j.PropertyConfigurator;
 import org.atlas.testHelper.AtlasConstants;
 import org.atlas.ui.pages.HomePage;
+import org.atlas.ui.pages.Pagination;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Platform;
@@ -47,6 +49,7 @@ public class WebDriverWrapper {
 	private static WebDriver webDriver;
 	protected static EventFiringWebDriver driver;
 	protected static HomePage homePage;
+	protected static Pagination Pagination;
 	protected static WebElementWrapper webElement;
 	protected long testExecutionStartTime;
 	
@@ -102,6 +105,7 @@ public class WebDriverWrapper {
 		webElement = new WebElementWrapper();
 		PropertyConfigurator.configure("log4j.properties");
 		homePage = new HomePage();
+		Pagination = new Pagination();
 		return driver;
 	}
 
@@ -113,7 +117,16 @@ public class WebDriverWrapper {
 		AtlasDriverUtility.pageLoadedTime(startTime, AtlasConstants.UI_URL);
 		return PageFactory.initElements(driver, HomePageTest.class);
 	}
-	 
+	
+
+	public PaginationTest launchApp1() {
+		long startTime = System.currentTimeMillis();
+		driver.get(AtlasConstants.UI_URL);
+		LOGGER.info("Opened a URL: " + AtlasConstants.UI_URL);
+		AtlasDriverUtility.waitForPageLoad(driver, 30);
+		AtlasDriverUtility.pageLoadedTime(startTime, AtlasConstants.UI_URL);
+		return PageFactory.initElements(driver, PaginationTest.class);
+	}
 	public static void closeBrowser() {
 		if (driver != null) {
 			AtlasDriverUtility.waitForPageLoad(driver, AtlasConstants.DRIVER_TIMEOUT);

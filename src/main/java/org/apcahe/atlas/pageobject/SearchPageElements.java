@@ -10,24 +10,37 @@ public class SearchPageElements extends HomePageElements {
 	@FindBy(css = ".mainSearch")
 	public WebElement mainSearch;
 	
-	@FindBy(css = "a[data-ui-sref='search()'][class='menulink']")
+	/*@FindBy(css = "a[data-ui-sref='search()'][class='menulink']")
+	public WebElement searchTab;*/
+	
+	@FindBy(css = "a[data-ui-sref='search()'][class='menu-link']")
 	public WebElement searchTab;
 	
-	@FindBy(css = "input[type='text']")
+	
+/*	@FindBy(css = "input[type='text']")
+	public WebElement searchBox;*/
+	
+	@FindBy(xpath = "//div/input[@placeholder='Search: Table, DB, Column']")
 	public WebElement searchBox;
 
 	@FindBy(css = "button[type='submit']")
 	public WebElement searchIcon;
 
-	@FindBy(css = ".tabsearchResult")
+	/*@FindBy(css = ".tabsearchResult")
+	public WebElement resultCount;*/
+	
+	@FindBy(css = ".tabsearch-result")
 	public WebElement resultCount;
 
 	@FindBy(css = ".alert")
 	public WebElement noResultFound;
 
-	@FindBy(css = ".mainTags")
-	public WebElement tagsSection;
+/*	@FindBy(css = ".mainTags")
+	public WebElement tagsSection;*/
 
+	@FindBy(css = ".main-tags")
+	public WebElement tagsSection;
+	
 	@FindBy(css = ".datatable .tabsearchanchor")
 	public List<WebElement> searchResultsTags;
 }

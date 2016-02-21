@@ -7,8 +7,10 @@ import org.apache.log4j.Logger;
 import org.apcahe.atlas.pageobject.HomePageElements;
 import org.atlas.testHelper.Menu;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class HomePage extends AtlasDriverUtility {
 
@@ -32,13 +34,14 @@ public class HomePage extends AtlasDriverUtility {
 	}
 
 	private List<WebElement> listOfMenuItems = null;
-	
+
 	public List<WebElement> getMenuLinks() {
-		if(listOfMenuItems == null) {
-			if(webElement.isElementExists(homePageElements.menuBar)) {
-				listOfMenuItems =  homePageElements.menuBar.findElements(By.cssSelector("a"));
+		if (listOfMenuItems == null) {
+			if (webElement.isElementExists(homePageElements.menuBar)) {
+				listOfMenuItems = homePageElements.menuBar.findElements(By
+						.cssSelector("a"));
 			}
-		} 
+		}
 		return listOfMenuItems;
 	}
 
@@ -87,8 +90,8 @@ public class HomePage extends AtlasDriverUtility {
 				break;
 			}
 		}
-		if(!isLinkEnabled){
-			LOGGER.error("Menu name: " + menuName +" not found to click");
+		if (!isLinkEnabled) {
+			LOGGER.error("Menu name: " + menuName + " not found to click");
 		}
 		return isLinkEnabled;
 	}
@@ -102,11 +105,36 @@ public class HomePage extends AtlasDriverUtility {
 		LOGGER.info("EXITED: verifyPageLoadSuccessfully");
 	}
 
+	/*
+	 * public void validateLogoVisible(){
+	 * LOGGER.info("ENTERED: Atlas Logo is Visible/Exists"); boolean present =
+	 * false; try { WebElement e = homePageElements.mainLogo_exist; present =
+	 * true; LOGGER.info("Atlas Logo Present"); } catch (NoSuchElementException
+	 * e) { present = false; LOGGER.info("Atlas Logo not Present"); }
+	 * 
+	 * Assert.assertEquals(true, present);
+	 * LOGGER.info("EXITED: Atlas Logo is Exists");
+	 * 
+	 * }
+	 */
+
 	public void validateLogo() {
-		LOGGER.info("ENTERED: validateLogo");
+		LOGGER.info("ENTERED: validateLogo Clickable");
+
+		/*
+		 * AtlasDriverUtility.waitUntilElementVisible(
+		 * homePage.homePageElements.headerController, 10);
+		 * 
+		 * 
+		 * homePage.homePageElements.headerController.click();
+		 * homePageElements.headerController.click();
+		 */
+
 		AtlasDriverUtility.waitUntilElementVisible(
-				homePage.homePageElements.headerController, 10);
-		homePage.homePageElements.headerController.click();
-		LOGGER.info("EXITED: validateLogo");
+				homePageElements.mainLogo_exist, 30);
+		homePage.homePageElements.mainLogo_exist.click();
+		homePageElements.mainLogo_exist.click();
+
+		LOGGER.info("EXITED: validateLogo Clickable");
 	}
 }
