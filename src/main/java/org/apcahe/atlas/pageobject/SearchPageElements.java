@@ -20,7 +20,11 @@ public class SearchPageElements extends HomePageElements {
 /*	@FindBy(css = "input[type='text']")
 	public WebElement searchBox;*/
 	
-	@FindBy(xpath = "//div/input[@placeholder='Search: Table, DB, Column']")
+	/*@FindBy(xpath = "//div/input[@placeholder='Search: Table, DB, Column']")
+	public WebElement searchBox;*/
+	
+	
+	@FindBy(xpath = "//div/input[@data-ng-model='query']")
 	public WebElement searchBox;
 
 	@FindBy(css = "button[type='submit']")
@@ -43,4 +47,20 @@ public class SearchPageElements extends HomePageElements {
 	
 	@FindBy(css = ".datatable .tabsearchanchor")
 	public List<WebElement> searchResultsTags;
+	
+	
+	@FindBy(xpath = "//select[@ng-model='searchTypeModel']")
+	public WebElement selectOnSearchPage;
+	
+	@FindBy(xpath= "//input[@placeholder='Search for Tags…']")
+	public WebElement tagSearchOnSearchPage;
+	
+	@FindBy(xpath = "//img[@title='Refresh Tags']")
+	public WebElement refreshTags;
+	
+	@FindBy(xpath = "//a[@ng-click='showMore()']")
+	public WebElement loadMore;
+	
+	@FindBy(xpath = "//div[@data-ng-controller='navigationController']/div[@class='list-group']")
+	public WebElement tagListInSearchPage;
 }

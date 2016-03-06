@@ -26,8 +26,15 @@ public class HomePageElements {
 	@FindBy(xpath = "//*[contains(text(), 'Help')]")
 	public WebElement helpLink;
 	
+	/*@FindBy(linkText = "Help")
+	public WebElement helpLink1;*/
+	
+	@FindBy(xpath = "//*[contains(text(), 'OK')]")
+	public WebElement OK;
+	
 	@FindBy(xpath = "//*[contains(text(), 'About')]")
 	public WebElement aboutLink;
+	
 	
 	@FindBy(css = ".datatable")
 	public WebElement resultTable;

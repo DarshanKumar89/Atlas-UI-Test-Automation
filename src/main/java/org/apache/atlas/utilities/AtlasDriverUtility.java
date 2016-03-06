@@ -106,4 +106,8 @@ public class AtlasDriverUtility  extends WebDriverWrapper {
 		LOGGER.info("EXITED: getScreenshot with fileName " + fileName);
 	}
 	
+	public static void clickWebElement(String elem){
+		
+	}
+	
 }

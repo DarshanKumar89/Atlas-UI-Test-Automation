@@ -83,6 +83,7 @@ public class HomePage extends AtlasDriverUtility {
 		boolean isLinkEnabled = false;
 		for (WebElement menuLink : getMenuLinks()) {
 			if (menuLink.getText().equalsIgnoreCase(menuName)) {
+
 				menuLink.click();
 				AtlasDriverUtility.waitForPageLoad(getDriver(), 30);
 				isLinkEnabled = true;
@@ -105,18 +106,22 @@ public class HomePage extends AtlasDriverUtility {
 		LOGGER.info("EXITED: verifyPageLoadSuccessfully");
 	}
 
-	/*
-	 * public void validateLogoVisible(){
-	 * LOGGER.info("ENTERED: Atlas Logo is Visible/Exists"); boolean present =
-	 * false; try { WebElement e = homePageElements.mainLogo_exist; present =
-	 * true; LOGGER.info("Atlas Logo Present"); } catch (NoSuchElementException
-	 * e) { present = false; LOGGER.info("Atlas Logo not Present"); }
-	 * 
-	 * Assert.assertEquals(true, present);
-	 * LOGGER.info("EXITED: Atlas Logo is Exists");
-	 * 
-	 * }
-	 */
+	public void validateLogoVisible() {
+		LOGGER.info("ENTERED: Atlas Logo is Visible/Exists");
+		boolean present = false;
+		try {
+			WebElement e = homePageElements.mainLogo_exist;
+			present = true;
+			LOGGER.info("Atlas Logo Present");
+		} catch (NoSuchElementException e) {
+			present = false;
+			LOGGER.info("Atlas Logo not Present");
+		}
+
+		Assert.assertEquals(true, present);
+		LOGGER.info("EXITED: Atlas Logo is Exists");
+
+	}
 
 	public void validateLogo() {
 		LOGGER.info("ENTERED: validateLogo Clickable");
@@ -132,6 +137,7 @@ public class HomePage extends AtlasDriverUtility {
 
 		AtlasDriverUtility.waitUntilElementVisible(
 				homePageElements.mainLogo_exist, 30);
+
 		homePage.homePageElements.mainLogo_exist.click();
 		homePageElements.mainLogo_exist.click();
 

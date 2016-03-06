@@ -20,6 +20,8 @@ package org.apache.atlas.seleniumtests;
 
 import static org.atlas.testHelper.AtlasConstants.LINK_CLICKED;
 
+import java.util.ArrayList;
+
 import org.apache.atlas.objectwrapper.WebDriverWrapper;
 import org.apache.atlas.utilities.AtlasDriverUtility;
 import org.apache.atlas.utilities.UIAssert;
@@ -69,7 +71,9 @@ public class HomePageTest extends WebDriverWrapper {
 		 */
 	}
 
-	@Test
+	
+	
+/*	@Test
 	public void validateAtlasLogo() {
 		LOGGER.info("STARTED: validateAtlasLogo");
 		UIAssert.assertDisplayed(homePage.homePageElements.atlasLogo,
@@ -77,18 +81,23 @@ public class HomePageTest extends WebDriverWrapper {
 		AtlasDriverUtility.waitForPageLoad(driver, 60);
 		homePage.validateLogo();
 		LOGGER.info("ENDED: validateAtlasLogo");
-	}
+	}*/
 
-	/*
-	 * @Test public void validateLogoVisible() {
-	 * LOGGER.info("STARTED: validateAtlasLogo is Visible/Exists");
-	 * UIAssert.assertDisplayed(homePage.homePageElements.atlasLogo,
-	 * "Atlas Logo"); AtlasDriverUtility.waitForPageLoad(driver, 60);
-	 * homePage.validateLogoVisible();
-	 * LOGGER.info("ENDED: validateAtlasLogo Visibility"); }
-	 */
+	//Visibility of Atlas Logo on search Page
+	
+	  @Test(priority = 0)
+	  public void validateLogoVisible() {
+	  LOGGER.info("STARTED: validate AtlasLogo Visiblility on search Page");
+	  AtlasDriverUtility.waitUntilElementVisible(
+			  homePage.homePageElements.atlasLogo, 100);
+	  
+	  UIAssert.assertDisplayed(homePage.homePageElements.atlasLogo,
+	  "Atlas Logo"); AtlasDriverUtility.waitForPageLoad(driver, 60);
+	  homePage.validateLogoVisible();
+	  LOGGER.info("ENDED: validate AtlasLogo Visibility"); }
+	 
 
-	@Test
+	@Test(priority = 1)
 	public void validateMenuLinks() {
 		LOGGER.info("STARTED: validatePageMenuBar");
 		AtlasDriverUtility.waitForPageLoad(driver, 60);
@@ -99,21 +108,25 @@ public class HomePageTest extends WebDriverWrapper {
 		LOGGER.info("ENDED: validatePageMenuBar");
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void validateHelpLink() {
 		LOGGER.info("STARTED: validateHelpLink");
 		AtlasDriverUtility.waitForPageLoad(driver, 60);
+		
 		Assert.assertTrue(homePage.validateLink(Menu.HELP.toString()),
 				Menu.HELP.toString() + LINK_CLICKED);
 		LOGGER.info("ENDED: validateHelpLink");
 	}
 
-	@Test
+	@Test(priority = 3)
 	public void validateAboutLink() {
 		LOGGER.info("STARTED: validateAboutLink");
 		AtlasDriverUtility.waitForPageLoad(driver, 60);
 		Assert.assertTrue(homePage.validateLink(Menu.ABOUT.toString()),
 				Menu.ABOUT.toString() + LINK_CLICKED);
+		homePage.homePageElements.OK.click();
 		LOGGER.info("ENDED: validateAboutLink");
+		AtlasDriverUtility.customWait(3);
+		
 	}
 }

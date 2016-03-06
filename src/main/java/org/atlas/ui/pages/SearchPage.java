@@ -13,6 +13,7 @@ import org.apcahe.atlas.pageobject.SearchPageElements;
 import org.atlas.testHelper.AtlasConstants;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -25,6 +26,7 @@ public class SearchPage extends AtlasDriverUtility {
 
 	private static final Logger LOGGER = Logger.getLogger(SearchPage.class);
 	static WebDriver driver = getDriver();
+	Select select;
 
 	public SearchPageElements searchPageElements;
 
@@ -41,11 +43,13 @@ public class SearchPage extends AtlasDriverUtility {
 
 	public void searchQuery(String text) {
 		navigateToSearchTab();
+		customWait(1);
 		webElement.clearAndSendKeys(searchPageElements.searchBox, text);
 		searchPageElements.searchBox.sendKeys(Keys.ENTER);
 		long startTime = System.currentTimeMillis();
 		waitUntilPageRefresh(driver);
 		pageLoadedTime(startTime, text + " query");
+		customWait(2);
 	}
 
 	public int getSearchResultCount() {
@@ -183,14 +187,19 @@ public class SearchPage extends AtlasDriverUtility {
 	}
 
 	public boolean validateSearchTagsTag(String tagsTagName) {
+
+		
 		boolean isTagDisplayed = false;
+		customWait(1);
 		for (WebElement we : searchPageElements.tagsSection.findElements(By
 				.tagName("a"))) {
+			customWait(1);
 			if (we.getAttribute("title").equals(tagsTagName))
 				isTagDisplayed = true;
 		}
 		return isTagDisplayed;
 	}
+
 
 	public void clickOnTool(String tagName) {
 		if (webElement.isElementExists(searchPageElements.paginationBoard)) {
@@ -269,6 +278,9 @@ public class SearchPage extends AtlasDriverUtility {
 		}
 	}
 	
+	
+	
+	
 	@DataProvider(name = AtlasConstants.INVALID_SEARCH_STRING)
 	public static String[][] invalidSearchDataProvider(ITestContext context) {
 		Map<String, String> testParams = context.getCurrentXmlTest()
@@ -301,8 +313,108 @@ public class SearchPage extends AtlasDriverUtility {
 
 	@DataProvider(name = AtlasConstants.SEARCH_TABLE_HEADERS)
 	public static String[][] tableHeaders() {
-		String[][] object = new String[][] { { "Name", "Description", "Owner",
+		String[][] object = new String[][] { {"Name", "Description", "Owner",
 				"Tags", "Tools" } };
 		return object;
 	}
+	
+	
+	
+	
+	public int getSizeList(){
+		AtlasDriverUtility.waitUntilElementVisible(
+				searchPageElements.selectOnSearchPage, 50); 
+		
+		 select = new 
+				Select(searchPageElements.selectOnSearchPage);
+	
+		 AtlasDriverUtility.waitForPageLoad(driver, 60);
+		List<WebElement> select_size = select.getOptions();
+		int size=select_size.size();
+		return size;
+	}
+	
+	
+	public void validateselectOptions(){
+	
+		
+		int size =getSizeList();
+		
+		for(int i=0; i<size ;i++){
+		select.selectByIndex(i);
+		
+		AtlasDriverUtility.customWait(2);
+		
+		}
+		
+				
+	}
+	
+	
+	
+	
+	public boolean tagSearchFunctionalityInSearchPage(boolean verifytagfunctionality, String str){
+		String[] Tagstable = null; 
+		//String str;
+		
+		if(webElement.isElementExists(searchPageElements.tagListInSearchPage)){
+			List<WebElement> listOfTags = searchPageElements.tagListInSearchPage.findElements(By.cssSelector("a"));
+			Tagstable = new String[listOfTags.size()];
+		int	counter=listOfTags.size();
+			for(int index = 0; index < counter; index++){
+				Tagstable[index] = listOfTags.get(index).getText();
+				LOGGER.info("Tagstable[ "+index+" ] = " +Tagstable[index]);
+				
+				/*
+				if((!Tagstable[index].toLowerCase().contains(str.toLowerCase())) && (!Tagstable[index].equals("Load more ..."))) {
+					verifytagfunctionality=false;
+				}*/
+				
+
+				if(Tagstable[index].toLowerCase().contains(str.toLowerCase())){
+					
+					verifytagfunctionality=true;
+				}
+				
+				else if(Tagstable[index].equals("Load more ..."))  {
+											verifytagfunctionality=true;
+					
+				}
+				
+				else
+					verifytagfunctionality=false;
+				
+				if(index==listOfTags.size()-1 && Tagstable[index].equals("Load more ..."))
+				{
+					System.out.println("Click");
+					searchPageElements.loadMore.click();
+					customWait(1);
+					
+					 listOfTags = searchPageElements.tagListInSearchPage.findElements(By.cssSelector("a"));
+					Tagstable = new String[listOfTags.size()];
+					
+					counter=listOfTags.size()-1;
+					System.out.println("counter == "+counter);
+					index=index-1;
+					
+					
+				}
+				
+			
+				
+				
+			}
+			
+		
+			
+		}
+		
+	
+		
+		return verifytagfunctionality;
+		
+		
+	}
+	
+	
 }

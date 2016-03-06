@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>AtlasUIAutomationTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>36/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>26/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Feb 21 18:58:24 GST 2016</td>
+<td>Started on:</td><td>Sun Mar 06 19:19:46 GST 2016</td>
 </tr>
-<tr><td>Total time:</td><td>599 seconds (599501 ms)</td>
+<tr><td>Total time:</td><td>175 seconds (175213 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,176 +75,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.apache.atlas.seleniumtests.TagsPageTest.duplicateTagName()'><b>duplicateTagName</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br/>
-<a href="#Output-908006650" onClick='toggleBox("Output-908006650", this, "Show output", "Hide output");'>Show output</a>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.ValidateTagNameWithAddAttribute()'><b>ValidateTagNameWithAddAttribute</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br/>
+<a href="#Output-1133725208" onClick='toggleBox("Output-1133725208", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-908006650" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-908006650">
-screenshot saved at D:\Deepika\software\workspace\Atlas\reports\duplicateTagName.jpg<br/>
+<a href="#Output-1133725208" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1133725208">
+screenshot saved at D:\Deepika\software\workspace\Atlas\reports\ValidateTagNameWithAddAttribute.jpg<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.InvalidElementStateException: Element is disabled and so may not be used for actions
-Command duration or timeout: 8 milliseconds
-Build info: version: &apos;2.50.1&apos;, revision: &apos;d7fc91b&apos;, time: &apos;2016-01-29 19:04:49&apos;
-System info: host: &apos;Deepak-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
-Session ID: 9a2cb66c-051d-409d-962c-60a62f3ab099
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
-	at com.sun.proxy.$Proxy12.clear(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:364)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.clear(Unknown Source)
-	at org.apache.atlas.objectwrapper.WebElementWrapper.clearAndSendKeys(WebElementWrapper.java:19)
-	at org.atlas.ui.pages.TagsPage.enterTagName(TagsPage.java:70)
-	at org.atlas.ui.pages.TagsPage.createExistingTag(TagsPage.java:109)
-	at org.apache.atlas.seleniumtests.TagsPageTest.duplicateTagName(TagsPageTest.java:62)
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.atlas.ui.pages.TagsPage.validateAttributeEnable(TagsPage.java:180)
+	at org.apache.atlas.seleniumtests.TagsPageTest.ValidateTagNameWithAddAttribute(TagsPageTest.java:51)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.InvalidElementStateException: Element is disabled and so may not be used for actions
-Build info: version: &apos;2.50.1&apos;, revision: &apos;d7fc91b&apos;, time: &apos;2016-01-29 19:04:49&apos;
-System info: host: &apos;Deepak-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.fxdriver.preconditions.enabled(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10047)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12578)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12595)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12600)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12542)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace908006650", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace908006650'><pre>org.openqa.selenium.InvalidElementStateException: Element is disabled and so may not be used for actions
-Command duration or timeout: 8 milliseconds
-Build info: version: &apos;2.50.1&apos;, revision: &apos;d7fc91b&apos;, time: &apos;2016-01-29 19:04:49&apos;
-System info: host: &apos;Deepak-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
-Session ID: 9a2cb66c-051d-409d-962c-60a62f3ab099
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)
-	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
-	at com.sun.proxy.$Proxy12.clear(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:364)
-	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.clear(Unknown Source)
-	at org.apache.atlas.objectwrapper.WebElementWrapper.clearAndSendKeys(WebElementWrapper.java:19)
-	at org.atlas.ui.pages.TagsPage.enterTagName(TagsPage.java:70)
-	at org.atlas.ui.pages.TagsPage.createExistingTag(TagsPage.java:109)
-	at org.apache.atlas.seleniumtests.TagsPageTest.duplicateTagName(TagsPageTest.java:62)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.InvalidElementStateException: Element is disabled and so may not be used for actions
-Build info: version: &apos;2.50.1&apos;, revision: &apos;d7fc91b&apos;, time: &apos;2016-01-29 19:04:49&apos;
-System info: host: &apos;Deepak-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.fxdriver.preconditions.enabled(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10047)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12578)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12595)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12600)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/Deepak/AppData/Local/Temp/anonymous2763769485546477029webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12542)
-</pre></div></td>
-<td>0</td>
-<td>org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.HomePageTest.validateAtlasLogo()'><b>validateAtlasLogo</b><br>Test class: org.apache.atlas.seleniumtests.HomePageTest<br/>
-<a href="#Output-2013009557" onClick='toggleBox("Output-2013009557", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2013009557" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2013009557">
-screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateAtlasLogo.jpg<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (156, 19). Other element would receive the click: &lt;div style=&quot;z-index: 1050; display: block;&quot; animate=&quot;animate&quot; index=&quot;0&quot; size=&quot;lg&quot; modal-window=&quot;&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; class=&quot;modal fade ng-isolate-scope in&quot; ng-class=&quot;{in: animate}&quot; ng-style=&quot;{&apos;z-index&apos;: 1050 + index*10, display: &apos;block&apos;}&quot; ng-click=&quot;close($event)&quot;&gt;&lt;/div&gt;
-Command duration or timeout: 64 milliseconds
-Build info: version: &apos;2.50.1&apos;, revision: &apos;d7fc91b&apos;, time: &apos;2016-01-29 19:04:49&apos;
-System info: host: &apos;Deepak-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
-Session ID: 9a2cb66c-051d-409d-962c-60a62f3ab099
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at org.atlas.ui.pages.HomePage.validateLogo(HomePage.java:135)
-	at org.apache.atlas.seleniumtests.HomePageTest.validateAtlasLogo(HomePageTest.java:78)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2013009557", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2013009557'><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (156, 19). Other element would receive the click: &lt;div style=&quot;z-index: 1050; display: block;&quot; animate=&quot;animate&quot; index=&quot;0&quot; size=&quot;lg&quot; modal-window=&quot;&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; class=&quot;modal fade ng-isolate-scope in&quot; ng-class=&quot;{in: animate}&quot; ng-style=&quot;{&apos;z-index&apos;: 1050 + index*10, display: &apos;block&apos;}&quot; ng-click=&quot;close($event)&quot;&gt;&lt;/div&gt;
-Command duration or timeout: 64 milliseconds
-Build info: version: &apos;2.50.1&apos;, revision: &apos;d7fc91b&apos;, time: &apos;2016-01-29 19:04:49&apos;
-System info: host: &apos;Deepak-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
-Session ID: 9a2cb66c-051d-409d-962c-60a62f3ab099
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at org.atlas.ui.pages.HomePage.validateLogo(HomePage.java:135)
-	at org.apache.atlas.seleniumtests.HomePageTest.validateAtlasLogo(HomePageTest.java:78)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1133725208", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1133725208'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:288)
+	at org.testng.Assert.assertEquals(Assert.java:298)
+	at org.atlas.ui.pages.TagsPage.validateAttributeEnable(TagsPage.java:180)
+	at org.apache.atlas.seleniumtests.TagsPageTest.ValidateTagNameWithAddAttribute(TagsPageTest.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -267,222 +121,7 @@ Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cs
 	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
 <td>0</td>
-<td>org.apache.atlas.seleniumtests.HomePageTest@1da477bf</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.LineagePageTest.validateBackToPageFunctionality()'><b>validateBackToPageFunctionality</b><br>Test class: org.apache.atlas.seleniumtests.LineagePageTest<br>Parameters: Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435<br/>
-<a href="#Output-1045865347" onClick='toggleBox("Output-1045865347", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1045865347" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1045865347">
-screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateBackToPageFunctionality.jpg<br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError: BackToPage link enabled expected [true] but found [false]
-	at org.apache.atlas.seleniumtests.LineagePageTest.validateBackToPageFunctionality(LineagePageTest.java:38)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1045865347", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1045865347'><pre>java.lang.AssertionError: BackToPage link enabled expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:288)
-	at org.apache.atlas.seleniumtests.LineagePageTest.validateBackToPageFunctionality(LineagePageTest.java:38)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>40</td>
-<td>org.apache.atlas.seleniumtests.LineagePageTest@103c0cfb</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateFunctionalTestTag()'><b>validateFunctionalTestTag</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br/>
-<a href="#Output-1322991735" onClick='toggleBox("Output-1322991735", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1322991735" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1322991735">
-screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateFunctionalTestTag.jpg<br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError: Validating tag in search page tags expected [true] but found [false]
-	at org.apache.atlas.seleniumtests.SearchPageTest.validateFunctionalTestTag(SearchPageTest.java:165)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1322991735", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1322991735'><pre>java.lang.AssertionError: Validating tag in search page tags expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.apache.atlas.seleniumtests.SearchPageTest.validateFunctionalTestTag(SearchPageTest.java:165)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>10</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.HomePageTest.validateHelpLink()'><b>validateHelpLink</b><br>Test class: org.apache.atlas.seleniumtests.HomePageTest<br/>
-<a href="#Output-288420383" onClick='toggleBox("Output-288420383", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-288420383" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-288420383">
-screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateHelpLink.jpg<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (1172, 20). Other element would receive the click: &lt;div style=&quot;z-index: 1050; display: block;&quot; animate=&quot;animate&quot; index=&quot;0&quot; size=&quot;lg&quot; modal-window=&quot;&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; class=&quot;modal fade ng-isolate-scope in&quot; ng-class=&quot;{in: animate}&quot; ng-style=&quot;{&apos;z-index&apos;: 1050 + index*10, display: &apos;block&apos;}&quot; ng-click=&quot;close($event)&quot;&gt;&lt;/div&gt;
-Command duration or timeout: 63 milliseconds
-Build info: version: &apos;2.50.1&apos;, revision: &apos;d7fc91b&apos;, time: &apos;2016-01-29 19:04:49&apos;
-System info: host: &apos;Deepak-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
-Session ID: 9a2cb66c-051d-409d-962c-60a62f3ab099
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
-	at org.atlas.ui.pages.HomePage.clickOnMenu(HomePage.java:86)
-	at org.atlas.ui.pages.HomePage.validateLink(HomePage.java:70)
-	at org.apache.atlas.seleniumtests.HomePageTest.validateHelpLink(HomePageTest.java:106)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace288420383", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace288420383'><pre>org.openqa.selenium.WebDriverException: Element is not clickable at point (1172, 20). Other element would receive the click: &lt;div style=&quot;z-index: 1050; display: block;&quot; animate=&quot;animate&quot; index=&quot;0&quot; size=&quot;lg&quot; modal-window=&quot;&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; class=&quot;modal fade ng-isolate-scope in&quot; ng-class=&quot;{in: animate}&quot; ng-style=&quot;{&apos;z-index&apos;: 1050 + index*10, display: &apos;block&apos;}&quot; ng-click=&quot;close($event)&quot;&gt;&lt;/div&gt;
-Command duration or timeout: 63 milliseconds
-Build info: version: &apos;2.50.1&apos;, revision: &apos;d7fc91b&apos;, time: &apos;2016-01-29 19:04:49&apos;
-System info: host: &apos;Deepak-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
-Session ID: 9a2cb66c-051d-409d-962c-60a62f3ab099
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
-	at org.atlas.ui.pages.HomePage.clickOnMenu(HomePage.java:86)
-	at org.atlas.ui.pages.HomePage.validateLink(HomePage.java:70)
-	at org.apache.atlas.seleniumtests.HomePageTest.validateHelpLink(HomePageTest.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>15</td>
-<td>org.apache.atlas.seleniumtests.HomePageTest@1da477bf</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.LineagePageTest.validateLineagePage()'><b>validateLineagePage</b><br>Test class: org.apache.atlas.seleniumtests.LineagePageTest<br>Parameters: Fact:30f27e78-07f8-433b-8bef-fbc7d380cd10<br/>
-<a href="#Output-308402987" onClick='toggleBox("Output-308402987", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-308402987" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-308402987">
-screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateLineagePage.jpg<br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError: Graphs Section loaded expected [false] but found [true]
-	at org.apache.atlas.seleniumtests.LineagePageTest.validateLineagePage(LineagePageTest.java:49)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace308402987", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace308402987'><pre>java.lang.AssertionError: Graphs Section loaded expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:288)
-	at org.apache.atlas.seleniumtests.LineagePageTest.validateLineagePage(LineagePageTest.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>46</td>
-<td>org.apache.atlas.seleniumtests.LineagePageTest@103c0cfb</td></tr>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -492,185 +131,135 @@ screenshot saved at D:\Deepika\software\workspace\Atlas\reports\validateLineageP
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.apache.atlas.seleniumtests.PaginationTest.MiddlePageOfPaginationVarification()'><b>MiddlePageOfPaginationVarification</b><br>Test class: org.apache.atlas.seleniumtests.PaginationTest</td>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.ValidateAutoRefreshForNewTagCreated()'><b>ValidateAutoRefreshForNewTagCreated</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest</td>
+<td></td>
+<td>2</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
+<tr>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.ValidateMessageDisappear()'><b>ValidateMessageDisappear</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest</td>
 <td></td>
 <td>0</td>
-<td>org.apache.atlas.seleniumtests.PaginationTest@18b1abcd</td></tr>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 <tr>
-<td title='org.apache.atlas.seleniumtests.PaginationTest.Validate_FirstPagePagination()'><b>Validate_FirstPagePagination</b><br>Test class: org.apache.atlas.seleniumtests.PaginationTest</td>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.ValidateOfXButtonOnADDAtrribute()'><b>ValidateOfXButtonOnADDAtrribute</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest</td>
 <td></td>
 <td>0</td>
-<td>org.apache.atlas.seleniumtests.PaginationTest@18b1abcd</td></tr>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 <tr>
-<td title='org.apache.atlas.seleniumtests.PaginationTest.Validate_LastPagePagination()'><b>Validate_LastPagePagination</b><br>Test class: org.apache.atlas.seleniumtests.PaginationTest</td>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.VisibilityOfXButtonOnAttribute()'><b>VisibilityOfXButtonOnAttribute</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest</td>
 <td></td>
 <td>0</td>
-<td>org.apache.atlas.seleniumtests.PaginationTest@18b1abcd</td></tr>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 <tr>
-<td title='org.apache.atlas.seleniumtests.PaginationTest.Validate_NeumericboxAtBottom()'><b>Validate_NeumericboxAtBottom</b><br>Test class: org.apache.atlas.seleniumtests.PaginationTest</td>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.WebElementCollection()'><b>WebElementCollection</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest</td>
 <td></td>
-<td>0</td>
-<td>org.apache.atlas.seleniumtests.PaginationTest@18b1abcd</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.PaginationTest.Validate_NumberOfRows()'><b>Validate_NumberOfRows</b><br>Test class: org.apache.atlas.seleniumtests.PaginationTest</td>
-<td></td>
-<td>24</td>
-<td>org.apache.atlas.seleniumtests.PaginationTest@18b1abcd</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.PaginationTest.Validate_NumberOfRowsPerPage()'><b>Validate_NumberOfRowsPerPage</b><br>Test class: org.apache.atlas.seleniumtests.PaginationTest</td>
-<td></td>
-<td>0</td>
-<td>org.apache.atlas.seleniumtests.PaginationTest@18b1abcd</td></tr>
+<td>44</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 <tr>
 <td title='org.apache.atlas.seleniumtests.TagsPageTest.addFunctionalTestTag()'><b>addFunctionalTestTag</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest</td>
 <td></td>
-<td>33</td>
-<td>org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0</td></tr>
+<td>6</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 <tr>
 <td title='org.apache.atlas.seleniumtests.TagsPageTest.createTagWithAttribute()'><b>createTagWithAttribute</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest</td>
 <td></td>
-<td>33</td>
-<td>org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0</td></tr>
+<td>6</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 <tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.invalidSearchResult()'><b>invalidSearchResult</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: abc!@#</td>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.duplicateTagName()'><b>duplicateTagName</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest</td>
 <td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.testPageElementsFromSearchPage()'><b>testPageElementsFromSearchPage</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest</td>
-<td></td>
-<td>3</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.LineagePageTest.testPageElementsFromSearchPage()'><b>testPageElementsFromSearchPage</b><br>Test class: org.apache.atlas.seleniumtests.LineagePageTest</td>
-<td></td>
-<td>3</td>
-<td>org.apache.atlas.seleniumtests.LineagePageTest@103c0cfb</td></tr>
+<td>18</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 <tr>
 <td title='org.apache.atlas.seleniumtests.TagsPageTest.testPageElementsFromTagsTab()'><b>testPageElementsFromTagsTab</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest</td>
 <td></td>
-<td>3</td>
-<td>org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0</td></tr>
+<td>25</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 <tr>
 <td title='org.apache.atlas.seleniumtests.HomePageTest.validateAboutLink()'><b>validateAboutLink</b><br>Test class: org.apache.atlas.seleniumtests.HomePageTest</td>
 <td></td>
-<td>20</td>
-<td>org.apache.atlas.seleniumtests.HomePageTest@1da477bf</td></tr>
+<td>23</td>
+<td>org.apache.atlas.seleniumtests.HomePageTest@45ecab0</td></tr>
 <tr>
 <td title='org.apache.atlas.seleniumtests.TagsPageTest.validateFunctionalTestTag()'><b>validateFunctionalTestTag</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest</td>
 <td></td>
-<td>34</td>
-<td>org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0</td></tr>
+<td>6</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 <tr>
-<td title='org.apache.atlas.seleniumtests.LineagePageTest.validateLineagePageTabs()'><b>validateLineagePageTabs</b><br>Test class: org.apache.atlas.seleniumtests.LineagePageTest<br>Parameters: Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435</td>
+<td title='org.apache.atlas.seleniumtests.HomePageTest.validateHelpLink()'><b>validateHelpLink</b><br>Test class: org.apache.atlas.seleniumtests.HomePageTest</td>
 <td></td>
-<td>40</td>
-<td>org.apache.atlas.seleniumtests.LineagePageTest@103c0cfb</td></tr>
+<td>21</td>
+<td>org.apache.atlas.seleniumtests.HomePageTest@45ecab0</td></tr>
+<tr>
+<td title='org.apache.atlas.seleniumtests.HomePageTest.validateLogoVisible()'><b>validateLogoVisible</b><br>Test class: org.apache.atlas.seleniumtests.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>org.apache.atlas.seleniumtests.HomePageTest@45ecab0</td></tr>
 <tr>
 <td title='org.apache.atlas.seleniumtests.HomePageTest.validateMenuLinks()'><b>validateMenuLinks</b><br>Test class: org.apache.atlas.seleniumtests.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>org.apache.atlas.seleniumtests.HomePageTest@1da477bf</td></tr>
+<td>org.apache.atlas.seleniumtests.HomePageTest@45ecab0</td></tr>
 <tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchFunctionalty()'><b>validateSearchFunctionalty</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest</td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: Column select Column.name </td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: from DB select DB.name</td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: from Table select Table.name</td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: from Table select Table - </td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: from Table select Table.name , Table.owner </td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: from Table select Table.name, Table.owner, Table.creteTime</td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: from DB select DB.name, DB.createTime</td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: from DB select DB.name=‘sales'</td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: from DB select DB.name=‘Sales’ </td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: Table select name,owner,createTime</td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: from Table select Table.name, Table.owner </td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: from table select owner='joe'</td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchQueries()'><b>validateSearchQueries</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: from hive_table select tableName</td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateSearchResultCount()'><b>validateSearchResultCount</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest</td>
-<td></td>
-<td>13</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateTableHeaders()'><b>validateTableHeaders</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest<br>Parameters: [Ljava.lang.String;@4086c53b</td>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.validateSpellChecker()'><b>validateSpellChecker</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br>Parameters: Apache Atlas</td>
 <td></td>
 <td>0</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 <tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateTagInSearchResult()'><b>validateTagInSearchResult</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest</td>
-<td></td>
-<td>28</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
-<tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateTagSearchResult()'><b>validateTagSearchResult</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest</td>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.validateSpellChecker()'><b>validateSpellChecker</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br>Parameters: Search</td>
 <td></td>
 <td>0</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 <tr>
-<td title='org.apache.atlas.seleniumtests.SearchPageTest.validateTagSectionInSearchPage()'><b>validateTagSectionInSearchPage</b><br>Test class: org.apache.atlas.seleniumtests.SearchPageTest</td>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.validateSpellChecker()'><b>validateSpellChecker</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br>Parameters: Tags</td>
 <td></td>
 <td>0</td>
-<td>org.apache.atlas.seleniumtests.SearchPageTest@38862c65</td></tr>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
+<tr>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.validateSpellChecker()'><b>validateSpellChecker</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br>Parameters: Help</td>
+<td></td>
+<td>0</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
+<tr>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.validateSpellChecker()'><b>validateSpellChecker</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br>Parameters: About</td>
+<td></td>
+<td>0</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
+<tr>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.validateSpellChecker()'><b>validateSpellChecker</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br>Parameters: Tag Definition</td>
+<td></td>
+<td>0</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
+<tr>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.validateSpellChecker()'><b>validateSpellChecker</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br>Parameters: Tag Name</td>
+<td></td>
+<td>0</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
+<tr>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.validateSpellChecker()'><b>validateSpellChecker</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br>Parameters: Parent Tag</td>
+<td></td>
+<td>0</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
+<tr>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.validateSpellChecker()'><b>validateSpellChecker</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br>Parameters: Add Attribute</td>
+<td></td>
+<td>0</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
+<tr>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.validateSpellChecker()'><b>validateSpellChecker</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br>Parameters: Save</td>
+<td></td>
+<td>0</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
+<tr>
+<td title='org.apache.atlas.seleniumtests.TagsPageTest.validateSpellChecker()'><b>validateSpellChecker</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest<br>Parameters: Attribute name</td>
+<td></td>
+<td>0</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 <tr>
 <td title='org.apache.atlas.seleniumtests.TagsPageTest.validateTagsPage()'><b>validateTagsPage</b><br>Test class: org.apache.atlas.seleniumtests.TagsPageTest</td>
 <td></td>
-<td>33</td>
-<td>org.apache.atlas.seleniumtests.TagsPageTest@70ccb7e0</td></tr>
+<td>6</td>
+<td>org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d</td></tr>
 </table><p>
 </body>
 </html>

@@ -84,28 +84,24 @@ public class Pagination extends AtlasDriverUtility {
 			
 			List<WebElement> rowCount2 =paginationElements.lastPageTable;
 
-		/*	try {
-				Thread.sleep(4000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}*/
 			
 			AtlasDriverUtility.waitForPageLoad(driver, 320);
 
 			for (WebElement row : rowCount2) {
 
+				customWait(1);
 				int cellsInRow = row.findElements(By.cssSelector("tr")).size() - 1;
 
 				no_of_rows_exceptLastPage = cellsInRow;
 				Total = cellsInRow + Total;
-				System.out.println("No of rows in only have one page:"
+				System.out.println("No of rows, where we have only one page:"
 						+ cellsInRow);
 			}
 
 			firstPageValidation = true;
 			MiddlePageValidation = true;
 			lastPageValidation = true;
+			row_PerPage=true;
 
 		}
 

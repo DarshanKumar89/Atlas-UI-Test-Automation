@@ -31,7 +31,7 @@ public class LineagePageTest extends WebDriverWrapper {
 		LOGGER.info("ENDED: Test testPageElements from Lineage Page");
 	}	
 	
-	@Test(dataProvider = AtlasConstants.LINEAGE_DATA, dataProviderClass = SearchPage.class)
+/*	@Test(dataProvider = AtlasConstants.LINEAGE_DATA, dataProviderClass = SearchPage.class)
 	public void validateBackToPageFunctionality(String query) {
 		LOGGER.info("STARTED: validateBackToPageLink");
 		lineagePage.goToLineagePageFor(query);
@@ -52,6 +52,7 @@ public class LineagePageTest extends WebDriverWrapper {
 				"Details section displayed");
 		LOGGER.info("ENDED: validateLineagePage");
 	}
+	*/
 	
 	@Test(dataProvider = AtlasConstants.LINEAGE_DATA, dataProviderClass = SearchPage.class)
 	public void validateLineagePageTabs(String query) {

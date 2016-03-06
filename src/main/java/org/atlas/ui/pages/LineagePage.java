@@ -170,7 +170,7 @@ public class LineagePage extends HomePage {
 			isTagFound = true;
 			AtlasDriverUtility.customWait(3);
 		} else {
-			LOGGER.error("Map 'nameToElement' doesn't contain key: " + tagName);
+			LOGGER.error("Map 'nameToElement:' "+nameToElement+ " doesn't contain key: " + tagName);
 		}
 		return isTagFound;
 	}
