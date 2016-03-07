@@ -15236,3 +15236,19 @@ STARTED: Validate_NumberOfRowsPerPage
 2016-03-06 19:22:41 INFO  TagsPageTest:143 - Attribute name
 2016-03-06 19:22:41 INFO  HomePageTest:309 - [Apache Atlas, Search, Tags, Help, About, Tag Definition, Tag Name, Parent Tag, Add Attribute, Save, Attribute name]
 2016-03-06 19:22:41 INFO  TagsPageTest:149 - ENDED: Test validate Spell Checker
+2016-03-07 16:53:20 INFO  AtlasDriverUtility:85 - 5 seconds took to 'http://162.249.6.39:3682'
+2016-03-07 16:53:20 INFO  HomePageTest:90 - STARTED: validate AtlasLogo Visiblility on search Page
+2016-03-07 16:53:21 INFO  UIAssert:17 - Checking if WebElement 'Atlas Logo' is displayed
+2016-03-07 16:53:21 INFO  UIAssert:22 - WebElement 'Atlas Logo' is displayed
+2016-03-07 16:53:21 INFO  HomePage:110 - ENTERED: Atlas Logo is Visible/Exists
+2016-03-07 16:53:21 INFO  HomePage:115 - Atlas Logo Present
+2016-03-07 16:53:21 INFO  HomePage:122 - EXITED: Atlas Logo is Exists
+2016-03-07 16:53:21 INFO  HomePageTest:97 - ENDED: validate AtlasLogo Visibility
+2016-03-07 16:53:23 INFO  AtlasDriverUtility:85 - 1 seconds took to 'http://162.249.6.39:3682'
+2016-03-07 16:53:23 INFO  LineagePageTest:29 - STARTED: Test testPageElements from Lineage Page
+2016-03-07 16:53:23 INFO  HomePage:101 - ENTERED: verifyPageLoadSuccessfully
+2016-03-07 16:53:26 INFO  HomePage:127 - ENTERED: validateLogo Clickable
+2016-03-07 16:53:26 INFO  HomePage:144 - EXITED: validateLogo Clickable
+2016-03-07 16:53:26 INFO  HomePage:106 - EXITED: verifyPageLoadSuccessfully
+2016-03-07 16:53:26 INFO  LineagePageTest:31 - ENDED: Test testPageElements from Lineage Page
+2016-03-07 16:53:26 INFO  LineagePageTest:59 - STARTED: validateLineagePageTabs
