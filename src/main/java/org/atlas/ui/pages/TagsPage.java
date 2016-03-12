@@ -16,7 +16,9 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.DataProvider;
@@ -113,11 +115,8 @@ public class TagsPage extends AtlasDriverUtility {
 		return tagName;
 	}
 
-	public void createExistingTag() {
-		 AtlasDriverUtility.customWait(6);
-	/*	AtlasDriverUtility.waitUntilElementVisible(
-				tagsPageElements.parentTagSelectionField, 50);*/
-		
+	/*public void createExistingTag() {
+		AtlasDriverUtility.customWait(6);
 
 		List<WebElement> parentTags = tagsPageElements.parentTagSelectionField
 				.findElements(By.cssSelector(".ng-binding"));
@@ -133,6 +132,57 @@ public class TagsPage extends AtlasDriverUtility {
 		} else {
 			LOGGER.warn("No existing tags to create.");
 		}
+	}*/
+	
+	
+/*	public void createExistingTag() {
+		Select selct=new Select(tagsPageElements.parentTagSelectionField);
+	//	selct.selectByIndex(0);
+		List<WebElement> allOptions = selct.getOptions();
+		AtlasDriverUtility.customWait(6);
+		if (allOptions.size() > 0) {
+			tagName = allOptions.get(0).getText();
+			enterTagName(tagName);
+			webElement.clearAndSendKeys(tagsPageElements.addAttributeName,
+					"AutomationTest");
+			saveTagName();
+		}
+		else {
+			LOGGER.warn("No existing tags to create.");
+		}
+	}*/
+	
+	
+	public void createExistingTag() {
+		Select selct=new Select(tagsPageElements.parentTagSelectionField);
+		customWait(1);
+		selct.selectByIndex(0);
+		String duplicateTagName=selct.getFirstSelectedOption().getAttribute("value");
+	
+		
+	if(duplicateTagName.isEmpty())	{
+		LOGGER.warn("No existing tags to create.");
+		
+	}
+	else{
+		tagName=duplicateTagName;
+		LOGGER.info("value of duplicate tag= " +tagName);
+		enterTagName(tagName);
+	
+		webElement.clearAndSendKeys(tagsPageElements.addAttributeName,
+				"AutomationTest");
+		saveTagName();
+		deleteattribute();
+		//webElement.click(tagsPageElements.removeAttribute);
+		customWait(5);
+	}
+		
+	}
+	
+	public TagsPage deleteattribute(){
+		tagsPageElements.removeAttribute.click();
+		
+	return this;
 	}
 
 	public boolean validateParentTag(String parentTagName) {
@@ -149,7 +199,9 @@ public class TagsPage extends AtlasDriverUtility {
 		return tagsPageElements.notificationBanner.getText();
 	}
 
-	public void deleteAttribute() {
+	public void visibilityOfDeleteAttribute() {
+		 AtlasDriverUtility.waitUntilElementVisible(
+				 tagsPageElements.removeAttribute, 50);
 
 		/*
 		 * AtlasDriverUtility.waitUntilElementVisible(
@@ -171,63 +223,53 @@ public class TagsPage extends AtlasDriverUtility {
 	}
 
 	public void validateAttributeEnable() {
-		// String tagNameValue;
-		// tagsPageElements.tagNameTextField.sendKeys("testing1");
-		// webElement.clearAndSendKeys(tagsPageElements.tagNameTextField,
-		// "testing1");
 
 		tagsPageElements.tagNameTextField.clear();
 		Assert.assertEquals(webElement
 				.isElementEnabled(tagsPageElements.addAttributeButton), false);
 	}
-	
-	
+
 	public String get_SelectedOption(WebElement element) {
 		Select select = new Select(element);
 		WebElement selectedElement = select.getFirstSelectedOption();
-		
+
 		String selectedOption = selectedElement.getText();
 		return selectedOption;
 	}
-	
-	public void autoRefreshParentTag(){
-		
+
+	public void autoRefreshParentTag() {
+
 		String uniqueID = UUID.randomUUID().toString();
-		
-		
+
 		System.out.println("unique id:" + uniqueID);
 		webElement
-		.clearAndSendKeys(tagsPageElements.tagNameTextField, uniqueID);
+				.clearAndSendKeys(tagsPageElements.tagNameTextField, uniqueID);
 
 		webElement.click(tagsPageElements.saveButton);
-		
-		//Selecting uniqueID from the dropdown using text
-		
+
+		// Selecting uniqueID from the dropdown using text
+
 		WebElement element = tagsPageElements.parentTagSelectionField;
-		
-		Select options=new Select(element);
-		
-		try{
+
+		Select options = new Select(element);
+
+		try {
 			customWait(5);
-		System.out.println(options.getAllSelectedOptions());	
-			
+			System.out.println(options.getAllSelectedOptions());
+
 			options.selectByValue(uniqueID);
 		}
-		
+
 		catch (NoSuchElementException e) {
-            System.out.println("Option value not find in dropdown");
-        
-        }
-			
-		//Verifying if selected value is displaying or not.
-		Assert.assertEquals(uniqueID, get_SelectedOption(element), "Selected Value not displaying");
-		
-		
-		
-		
+			System.out.println("Option value not find in dropdown");
+
+		}
+
+		// Verifying if selected value is displaying or not.
+		Assert.assertEquals(uniqueID, get_SelectedOption(element),
+				"Selected Value not displaying");
+
 	}
-
-
 
 	public void notificationDisappear() {
 		webElement.click(tagsPageElements.tagNameTextField); // Highlighting
@@ -237,96 +279,75 @@ public class TagsPage extends AtlasDriverUtility {
 		Assert.assertEquals(webElement
 				.isElementEnabled(tagsPageElements.notificationBanner), false);
 	}
-	
-	
-	public void webElementTextCollection(){
-	
-		
-		 list = new ArrayList<String>();
-		
-		 
-		
-		 LOGGER.info(tagsPageElements.apachelogo_Label.getText());
-		 LOGGER.info(tagsPageElements.searchTab_Label.getText());
-		 LOGGER.info(tagsPageElements.tagTabLink_Label.getText());
-		 LOGGER.info(tagsPageElements.helpLink_Label.getText());
-		 LOGGER.info(tagsPageElements.aboutLink_Label.getText());
-		 LOGGER.info(tagsPageElements.tagPageHeader_Label.getText());
-		 LOGGER.info(tagsPageElements.tagName_Label.getText());
-		 LOGGER.info(tagsPageElements.parentTag_Label.getText());
-		 
-		 LOGGER.info(tagsPageElements.addAttribute_Label.getText());
-		 LOGGER.info(tagsPageElements.save_Label.getText());
-		 LOGGER.info(tagsPageElements.AttributeName_Label.getText());
-		 
-		 String arr[]= {tagsPageElements.apachelogo_Label.getText(), tagsPageElements.searchTab_Label.getText(),
-				 tagsPageElements.tagTabLink_Label.getText(),	 tagsPageElements.helpLink_Label.getText(),
-				 tagsPageElements.aboutLink_Label.getText(),tagsPageElements.tagPageHeader_Label.getText(), 
-				 tagsPageElements.tagName_Label.getText(), tagsPageElements.parentTag_Label.getText(),
-				 tagsPageElements.addAttribute_Label.getText(), tagsPageElements.save_Label.getText(),
-				 tagsPageElements.AttributeName_Label.getText()
-		 };
-		 
-		
-		 for(int i=0;i<arr.length; i++){
-			 customWait(4);
-			 list.add(arr[i]);
-			 
-		 }
-		 
-		
-			/*customWait(5);
-		list.add(tagsPageElements.apachelogo_Label.getText());
-		customWait(2);
-		list.add(tagsPageElements.searchTab_Label.getText());
-		customWait(2);
-		list.add(tagsPageElements.tagTabLink_Label.getText());
-		customWait(2);
-		list.add(tagsPageElements.helpLink_Label.getText());
-		customWait(2);
-		list.add(tagsPageElements.aboutLink_Label.getText());
-		customWait(2);
-		list.add(tagsPageElements.tagPageHeader_Label.getText());
-		customWait(2);
-		
-		list.add(tagsPageElements.tagName_Label.getText());
-		customWait(2);
-		list.add(tagsPageElements.parentTag_Label.getText());
-		customWait(2);
-		
-		list.add(tagsPageElements.addAttribute_Label.getText());
-		customWait(2);
-		list.add(tagsPageElements.save_Label.getText());
-		customWait(2);
-		list.add(tagsPageElements.AttributeName_Label.getText());
-		customWait(2);*/
-		
-		System.out.println(list);
-		
-	}
-	
-	public Boolean checkTokenExist(String token){
-		LOGGER.info(list);
-		for(String str: list) {
-		    if(str.trim().contains(token))
-		       return true;
+
+	public void webElementTextCollection() {
+
+		list = new ArrayList<String>();
+
+		webElement.click(tagsPageElements.addAttribute_Label);
+
+		String arr[] = { tagsPageElements.apachelogo_Label.getText(),
+				tagsPageElements.searchTab_Label.getText(),
+				tagsPageElements.tagTabLink_Label.getText(),
+				tagsPageElements.helpLink_Label.getText(),
+				tagsPageElements.aboutLink_Label.getText(),
+				tagsPageElements.tagPageHeader_Label.getText(),
+				tagsPageElements.tagName_Label.getText(),
+				tagsPageElements.parentTag_Label.getText(),
+				tagsPageElements.addAttribute_Label.getText(),
+				tagsPageElements.save_Label.getText(),
+				tagsPageElements.AttributeName_Label.getText() };
+
+		for (int i = 0; i < arr.length; i++) {
+			customWait(3);
+
+			list.add(arr[i]);
+
 		}
-		return false;	
+
+		// Click on search Page to get spell check verification from search Page
+		// WebElements.
 		
+		webElement.click(tagsPageElements.searchTab_Label);
+
+		AtlasDriverUtility.waitUntilElementVisible(tagsPageElements.placeHolder, 10);
+		
+		Select select = null;
+		   select = new 
+				Select(tagsPageElements.selectOnSearchPage);
+		select.selectByIndex(0);
+		list.add(tagsPageElements.placeHolder.getAttribute("placeholder"));
+		customWait(1);
+		select.selectByIndex(1);
+		
+		list.add(tagsPageElements.placeHolder.getAttribute("placeholder"));
+		
+
+		System.out.println(list);
+
 	}
-	
+
+	public Boolean checkTokenExist(String token) {
+
+		for (String str : list) {
+
+			customWait(2);
+
+			if (str.trim().contains(token))
+				return true;
+		}
+		return false;
+
+	}
 
 	@DataProvider(name = AtlasConstants.SPELL_CHECKER)
-	public static Iterator<Object[]> spellcheckerDataProvider(ITestContext context) {
+	public static Iterator<Object[]> spellcheckerDataProvider(
+			ITestContext context) {
 		// Get the input file path from the ITestContext
-		
-		
+
 		String inputFile = context.getCurrentXmlTest().getParameter(
 				"spellchecker");
 		return AtlasFileUtils.getData(inputFile);
 	}
-	
-	
-	
 
 }

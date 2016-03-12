@@ -44,50 +44,50 @@ public class TagsPageElements extends HomePageElements {
 	@FindBy(className = "remove")
 	public WebElement removeAttribute;
 
-	/*@FindBy(xpath = "//div[@data-close='close(notification)")
-	public WebElement notification;*/
-	
-	
-	//Web Element For Spell Checker...
-	
-	@FindBy(className ="main-logo")
+	/*
+	 * @FindBy(xpath = "//div[@data-close='close(notification)") public
+	 * WebElement notification;
+	 */
+
+	// Web Element For Spell Checker...
+
+	@FindBy(className = "main-logo")
 	public WebElement apachelogo_Label;
-	
+
 	@FindBy(css = "a[data-ui-sref='search()'][class='menu-link']")
 	public WebElement searchTab_Label;
-	
+
 	@FindBy(css = "a[href='#!/tags']")
 	public WebElement tagTabLink_Label;
-	
+
 	@FindBy(xpath = "//*[contains(text(), 'Help')]")
 	public WebElement helpLink_Label;
-	
 
 	@FindBy(xpath = "//*[contains(text(), 'About')]")
 	public WebElement aboutLink_Label;
-	
+
 	@FindBy(css = ".app-form h4")
 	public WebElement tagPageHeader_Label;
-	
-	@FindBy(xpath ="//label[@for='typeName']")
+
+	@FindBy(xpath = "//label[@for='typeName']")
 	public WebElement tagName_Label;
-	
-	
+
 	@FindBy(xpath = "//label[@for='ParentTag']")
 	public WebElement parentTag_Label;
-	
-	
+
 	@FindBy(className = "addAttr")
 	public WebElement addAttribute_Label;
-	
+
 	@FindBy(css = ".saveAttr")
 	public WebElement save_Label;
-	
-	@FindBy(xpath="//label[@for='attributeId_0']")
+
+	@FindBy(xpath = "//label[@for='attributeId_0']")
 	public WebElement AttributeName_Label;
+
+	@FindBy(xpath = "//div/input[@data-ng-model='query']")
+	public WebElement placeHolder;
 	
-	
-	
-	
-	
+	@FindBy(xpath = "//select[@ng-model='searchTypeModel']")
+	public WebElement selectOnSearchPage;
+
 }

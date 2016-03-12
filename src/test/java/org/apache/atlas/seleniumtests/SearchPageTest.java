@@ -210,8 +210,8 @@ public class SearchPageTest extends WebDriverWrapper {
 		//click on refresh IMG tag in search page
 		searchPage.searchPageElements.refreshTags.click();
 		
-		// user defined tag available testing inside tags under Search Page
-		Assert.assertTrue(searchPage.validateSearchTagsTag("TestA"),
+		// tag available testing inside tags under Search Page
+		Assert.assertTrue(searchPage.validateSearchTagsTag("ETL"),
 				"Validating tag in search page tags");
 		
 		//Assert.assertEquals(true, searchPage.validateSearchTagsTag("TestA"));
@@ -239,12 +239,12 @@ public class SearchPageTest extends WebDriverWrapper {
 	@Test(priority=19)
 	public void validateTagSearchFunctionality() {
 		boolean verifytagfunctionality =true;
-		
+		String str="et";
 		LOGGER.info("STARTED: Validate Tag  Functionality in Search Page");
 
 		webElement.clearAndSendKeys(
-				searchPage.searchPageElements.tagSearchOnSearchPage, "test");
-		String str="test";
+				searchPage.searchPageElements.tagSearchOnSearchPage, str);
+		
 		verifytagfunctionality= searchPage.tagSearchFunctionalityInSearchPage(verifytagfunctionality, str);
 		
 		

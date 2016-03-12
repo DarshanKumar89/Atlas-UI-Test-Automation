@@ -11,8 +11,9 @@
 	<parameter name="browser_window_width" value="900" />
 
 	
-	<parameter name="server_ip" value="162.249.6.39" />
-	<parameter name="server_port" value="3682" />
+	<!-- <parameter name="server_ip" value="162.249.6.39" /> -->
+	<parameter name="server_ip" value="52.33.160.226" />
+	<parameter name="server_port" value="21000" />
 	
 	<!-- <test name="AtlasUIAutomationTests" preserve-order="true"> -->
 	<test name="AtlasUIAutomationTests" >
@@ -22,15 +23,15 @@
 		<parameter name="spellchecker" value="src/test/data/spellcheckWebElementText.txt" />
 		
 		<parameter name="guid" value="src/test/data/guid.txt" />
-		<parameter name="validateLineage" value="Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435"/>
-		<!-- <parameter name="validateLineage" value="JdbcAccess:d3864820-1719-44c6-af1b-37a9babbdf6c"/>  -->
+	<!-- 	<parameter name="validateLineage" value="Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435"/> -->
+		<parameter name="validateLineage" value="Metric:8c692720-91a1-45a6-bfdf-71e22b4d11d5"/> 
 		
 		<classes preserve-order="true">
 	 <class name="org.apache.atlas.seleniumtests.HomePageTest" />  
 	  	 <class name="org.apache.atlas.seleniumtests.PaginationTest" /> 
-			<class name="org.apache.atlas.seleniumtests.SearchPageTest" /> 
-			 <class name="org.apache.atlas.seleniumtests.TagsPageTest" /> 
-			  <class name="org.apache.atlas.seleniumtests.LineagePageTest" /> 
+			<class name="org.apache.atlas.seleniumtests.SearchPageTest" />  
+			 <class name="org.apache.atlas.seleniumtests.TagsPageTest" />
+			   <class name="org.apache.atlas.seleniumtests.LineagePageTest" /> 
 			
 		</classes>
 	</test>

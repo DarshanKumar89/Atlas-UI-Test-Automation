@@ -4,28 +4,28 @@
   <parameter name="guid" value="src/test/data/guid.txt"/>
   <parameter name="searchQueries" value="src/test/data/searchqueries.txt"/>
   <parameter name="browserName" value="firefox"/>
-  <parameter name="validateLineage" value="Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435"/>
-  <parameter name="server_ip" value="162.249.6.39"/>
+  <parameter name="validateLineage" value="Metric:8c692720-91a1-45a6-bfdf-71e22b4d11d5"/>
+  <parameter name="server_ip" value="52.33.160.226"/>
   <parameter name="spellchecker" value="src/test/data/spellcheckWebElementText.txt"/>
   <parameter name="invalidSearchData" value="abc!@#"/>
   <parameter name="browser_window_width" value="900"/>
   <parameter name="browser_window_height" value="1600"/>
-  <parameter name="server_port" value="3682"/>
+  <parameter name="server_port" value="21000"/>
   <listeners>
     <listener class-name="com.apache.atlas.listener.AtlasTestReportListener"/>
   </listeners>
   <test name="AtlasUIAutomationTests(failed)" parallel="tests">
     <parameter name="guid" value="src/test/data/guid.txt"/>
     <parameter name="searchQueries" value="src/test/data/searchqueries.txt"/>
-    <parameter name="validateLineage" value="Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435"/>
+    <parameter name="validateLineage" value="Metric:8c692720-91a1-45a6-bfdf-71e22b4d11d5"/>
     <parameter name="spellchecker" value="src/test/data/spellcheckWebElementText.txt"/>
     <parameter name="invalidSearchData" value="abc!@#"/>
     <classes>
       <class name="org.apache.atlas.seleniumtests.TagsPageTest">
         <methods>
           <include name="beforeMethod"/>
+          <include name="duplicateTagName"/>
           <include name="loadTagsTest"/>
-          <include name="ValidateTagNameWithAddAttribute"/>
         </methods>
       </class> <!-- org.apache.atlas.seleniumtests.TagsPageTest -->
       <class name="org.apache.atlas.seleniumtests.HomePageTest">

@@ -1,5 +1,6 @@
 package org.atlas.ui.pages;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -355,20 +356,50 @@ public class SearchPage extends AtlasDriverUtility {
 	
 	public boolean tagSearchFunctionalityInSearchPage(boolean verifytagfunctionality, String str){
 		String[] Tagstable = null; 
-		//String str;
+		
+		boolean loadMoreExist=false;
+		
+		
+		
 		
 		if(webElement.isElementExists(searchPageElements.tagListInSearchPage)){
+		
 			List<WebElement> listOfTags = searchPageElements.tagListInSearchPage.findElements(By.cssSelector("a"));
 			Tagstable = new String[listOfTags.size()];
-		int	counter=listOfTags.size();
+	
+			int	counter;
+		
+		
+		//..Storing web element list getText in String Array "tagsList"
+		List<String> tagsList = new ArrayList<String>();
+		for(WebElement link : listOfTags){
+		    tagsList.add(link.getText());
+		}
+		
+		
+		
+		String search = "Load more ...";
+		for(String val: tagsList) {
+		    if(val.trim().contains(search))
+		    	loadMoreExist =true;
+		}
+		
+		if(loadMoreExist){
+			counter=listOfTags.size();
+			
+		}
+		
+		else{
+			counter=listOfTags.size()-1; //excluding hidden load more from list
+		}
+		
 			for(int index = 0; index < counter; index++){
 				Tagstable[index] = listOfTags.get(index).getText();
+				
 				LOGGER.info("Tagstable[ "+index+" ] = " +Tagstable[index]);
 				
-				/*
-				if((!Tagstable[index].toLowerCase().contains(str.toLowerCase())) && (!Tagstable[index].equals("Load more ..."))) {
-					verifytagfunctionality=false;
-				}*/
+				
+				
 				
 
 				if(Tagstable[index].toLowerCase().contains(str.toLowerCase())){
@@ -409,7 +440,7 @@ public class SearchPage extends AtlasDriverUtility {
 			
 		}
 		
-	
+		
 		
 		return verifytagfunctionality;
 		

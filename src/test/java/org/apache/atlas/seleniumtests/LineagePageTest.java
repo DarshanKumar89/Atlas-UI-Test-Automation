@@ -24,7 +24,7 @@ public class LineagePageTest extends WebDriverWrapper {
 		lineagePage.launchApp();
 	}
 	
-	@Test
+	@Test(priority = 38)
 	public void testPageElementsFromSearchPage() {
 		LOGGER.info("STARTED: Test testPageElements from Lineage Page");
 		homePage.verifyPageLoadSuccessfully();
@@ -51,10 +51,10 @@ public class LineagePageTest extends WebDriverWrapper {
 		Assert.assertEquals(true, lineagePage.isPageDataDisplayed(),
 				"Details section displayed");
 		LOGGER.info("ENDED: validateLineagePage");
-	}
-	*/
+	}*/
 	
-	@Test(dataProvider = AtlasConstants.LINEAGE_DATA, dataProviderClass = SearchPage.class)
+	
+	@Test(dataProvider = AtlasConstants.LINEAGE_DATA, dataProviderClass = SearchPage.class, priority = 39)
 	public void validateLineagePageTabs(String query) {
 		LOGGER.info("STARTED: validateLineagePageTabs");
 		lineagePage

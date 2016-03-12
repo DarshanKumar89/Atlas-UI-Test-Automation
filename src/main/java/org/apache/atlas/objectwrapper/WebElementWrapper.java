@@ -1,5 +1,7 @@
 package org.apache.atlas.objectwrapper;
 
+import java.util.List;
+
 import org.apache.atlas.utilities.AtlasDriverUtility;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.NoSuchElementException;
@@ -15,6 +17,8 @@ public class WebElementWrapper {
 	}
 	
 	public void clearAndSendKeys(WebElement element, String text){
+		AtlasDriverUtility.waitUntilElementVisible(element, 10);
+		
 		if(isElementExists(element)) {
 			element.clear();
 			element.sendKeys(text);
@@ -32,6 +36,9 @@ public class WebElementWrapper {
 		}
 		return isDisplayed;
 	}
+	
+	
+	
 	
 	public boolean isElementEnabled(WebElement element){
 		boolean isEnabled = false;

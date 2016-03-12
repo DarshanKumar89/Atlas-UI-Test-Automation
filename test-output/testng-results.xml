@@ -1,206 +1,474 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="27" passed="26">
+<testng-results skipped="0" failed="0" total="62" passed="62">
   <reporter-output>
-    <line>
-      <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\ValidateTagNameWithAddAttribute.jpg]]>
-    </line>
   </reporter-output>
-  <suite name="AtlasSuite" duration-ms="175213" started-at="2016-03-06T15:19:46Z" finished-at="2016-03-06T15:22:41Z">
+  <suite name="AtlasSuite" duration-ms="704465" started-at="2016-03-12T10:04:30Z" finished-at="2016-03-12T10:16:15Z">
     <groups>
     </groups>
-    <test name="AtlasUIAutomationTests" duration-ms="175213" started-at="2016-03-06T15:19:46Z" finished-at="2016-03-06T15:22:41Z">
+    <test name="AtlasUIAutomationTests" duration-ms="704465" started-at="2016-03-12T10:04:30Z" finished-at="2016-03-12T10:16:15Z">
       <class name="org.apache.atlas.seleniumtests.HomePageTest">
-        <test-method status="PASS" signature="setup(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@45ecab0]" name="setup" is-config="true" duration-ms="4772" started-at="2016-03-06T19:19:41Z" description="Test setup" finished-at="2016-03-06T19:19:46Z">
+        <test-method status="PASS" signature="setup(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@f0cb191]" name="setup" is-config="true" duration-ms="3633" started-at="2016-03-12T14:04:24Z" description="Test setup" finished-at="2016-03-12T14:04:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435spellchecker=>src/test/data/spellcheckWebElementText.txtinvalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest]  packages:] ]]>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:8c692720-91a1-45a6-bfdf-71e22b4d11d5spellchecker=>src/test/data/spellcheckWebElementText.txtinvalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loadHomeTest(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@45ecab0]" name="loadHomeTest" is-config="true" duration-ms="10543" started-at="2016-03-06T19:19:46Z" description="HomePage Test Setup" finished-at="2016-03-06T19:19:56Z">
+        <test-method status="PASS" signature="setup(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.PaginationTest@a5dae4f]" name="setup" is-config="true" duration-ms="2911" started-at="2016-03-12T14:04:27Z" description="Test setup" finished-at="2016-03-12T14:04:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435spellchecker=>src/test/data/spellcheckWebElementText.txtinvalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest]  packages:] ]]>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:8c692720-91a1-45a6-bfdf-71e22b4d11d5spellchecker=>src/test/data/spellcheckWebElementText.txtinvalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loadHomeTest(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@f0cb191]" name="loadHomeTest" is-config="true" duration-ms="5296" started-at="2016-03-12T14:04:30Z" description="HomePage Test Setup" finished-at="2016-03-12T14:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:8c692720-91a1-45a6-bfdf-71e22b4d11d5spellchecker=>src/test/data/spellcheckWebElementText.txtinvalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadHomeTest -->
-        <test-method status="PASS" signature="validateLogoVisible()[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@45ecab0]" name="validateLogoVisible" duration-ms="1449" started-at="2016-03-06T19:19:56Z" finished-at="2016-03-06T19:19:58Z">
+        <test-method status="PASS" signature="validateLogoVisible()[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@f0cb191]" name="validateLogoVisible" duration-ms="1515" started-at="2016-03-12T14:04:35Z" finished-at="2016-03-12T14:04:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogoVisible -->
-        <test-method status="PASS" signature="validateMenuLinks()[pri:1, instance:org.apache.atlas.seleniumtests.HomePageTest@45ecab0]" name="validateMenuLinks" duration-ms="84" started-at="2016-03-06T19:19:58Z" finished-at="2016-03-06T19:19:58Z">
+        <test-method status="PASS" signature="validateMenuLinks()[pri:1, instance:org.apache.atlas.seleniumtests.HomePageTest@f0cb191]" name="validateMenuLinks" duration-ms="87" started-at="2016-03-12T14:04:37Z" finished-at="2016-03-12T14:04:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMenuLinks -->
-        <test-method status="PASS" signature="validateHelpLink()[pri:2, instance:org.apache.atlas.seleniumtests.HomePageTest@45ecab0]" name="validateHelpLink" duration-ms="21806" started-at="2016-03-06T19:19:58Z" finished-at="2016-03-06T19:20:20Z">
+        <test-method status="PASS" signature="validateHelpLink()[pri:2, instance:org.apache.atlas.seleniumtests.HomePageTest@f0cb191]" name="validateHelpLink" duration-ms="21113" started-at="2016-03-12T14:04:37Z" finished-at="2016-03-12T14:04:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHelpLink -->
-        <test-method status="PASS" signature="validateAboutLink()[pri:3, instance:org.apache.atlas.seleniumtests.HomePageTest@45ecab0]" name="validateAboutLink" duration-ms="23387" started-at="2016-03-06T19:20:20Z" finished-at="2016-03-06T19:20:43Z">
+        <test-method status="PASS" signature="validateAboutLink()[pri:3, instance:org.apache.atlas.seleniumtests.HomePageTest@f0cb191]" name="validateAboutLink" duration-ms="23412" started-at="2016-03-12T14:04:58Z" finished-at="2016-03-12T14:05:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAboutLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@45ecab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-06T19:22:41Z" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.atlas.seleniumtests.HomePageTest@f0cb191]" name="tearDown" is-config="true" duration-ms="646" started-at="2016-03-12T14:16:15Z" finished-at="2016-03-12T14:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.apache.atlas.seleniumtests.PaginationTest@a5dae4f]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-12T14:16:15Z" finished-at="2016-03-12T14:16:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.apache.atlas.seleniumtests.HomePageTest -->
-      <class name="org.apache.atlas.seleniumtests.TagsPageTest">
-        <test-method status="PASS" signature="loadTagsTest(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="loadTagsTest" is-config="true" duration-ms="1316" started-at="2016-03-06T19:20:43Z" description="TagsPage Test Setup" finished-at="2016-03-06T19:20:44Z">
+      <class name="org.apache.atlas.seleniumtests.LineagePageTest">
+        <test-method status="PASS" signature="loadLineagePageTest(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.LineagePageTest@7cd3f7a0]" name="loadLineagePageTest" is-config="true" duration-ms="780" started-at="2016-03-12T14:15:41Z" description="LineagePage Test Setup" finished-at="2016-03-12T14:15:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:084f35c8-6ca2-4aea-b8d5-dcc45297d435spellchecker=>src/test/data/spellcheckWebElementText.txtinvalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest]  packages:] ]]>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:8c692720-91a1-45a6-bfdf-71e22b4d11d5spellchecker=>src/test/data/spellcheckWebElementText.txtinvalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLineagePageTest -->
+        <test-method status="PASS" signature="testPageElementsFromSearchPage()[pri:38, instance:org.apache.atlas.seleniumtests.LineagePageTest@7cd3f7a0]" name="testPageElementsFromSearchPage" duration-ms="3244" started-at="2016-03-12T14:15:42Z" finished-at="2016-03-12T14:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageElementsFromSearchPage -->
+        <test-method status="PASS" signature="validateLineagePageTabs(java.lang.String)[pri:39, instance:org.apache.atlas.seleniumtests.LineagePageTest@7cd3f7a0]" name="validateLineagePageTabs" duration-ms="29861" started-at="2016-03-12T14:15:45Z" data-provider="lineageData" finished-at="2016-03-12T14:16:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Metric:8c692720-91a1-45a6-bfdf-71e22b4d11d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLineagePageTabs -->
+      </class> <!-- org.apache.atlas.seleniumtests.LineagePageTest -->
+      <class name="org.apache.atlas.seleniumtests.SearchPageTest">
+        <test-method status="PASS" signature="loadSearchTest(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="loadSearchTest" is-config="true" duration-ms="668" started-at="2016-03-12T14:05:24Z" description="SearchPage Test Setup" finished-at="2016-03-12T14:05:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:8c692720-91a1-45a6-bfdf-71e22b4d11d5spellchecker=>src/test/data/spellcheckWebElementText.txtinvalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadSearchTest -->
+        <test-method status="PASS" signature="invalidSearchResult(java.lang.String)[pri:10, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="invalidSearchResult" duration-ms="16862" started-at="2016-03-12T14:05:25Z" data-provider="invalidSearchDataFeed" finished-at="2016-03-12T14:05:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSearchResult -->
+        <test-method status="PASS" signature="testPageElementsFromSearchPage()[pri:11, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="testPageElementsFromSearchPage" duration-ms="3243" started-at="2016-03-12T14:05:42Z" finished-at="2016-03-12T14:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageElementsFromSearchPage -->
+        <test-method status="PASS" signature="validatNoOfeSelectOptions()[pri:12, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validatNoOfeSelectOptions" duration-ms="71" started-at="2016-03-12T14:05:45Z" finished-at="2016-03-12T14:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatNoOfeSelectOptions -->
+        <test-method status="PASS" signature="validateFunctionalTestTag()[pri:13, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateFunctionalTestTag" duration-ms="28477" started-at="2016-03-12T14:05:45Z" finished-at="2016-03-12T14:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFunctionalTestTag -->
+        <test-method status="PASS" signature="validateSearchFunctionalty()[pri:14, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchFunctionalty" duration-ms="16423" started-at="2016-03-12T14:06:14Z" finished-at="2016-03-12T14:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchFunctionalty -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18660" started-at="2016-03-12T14:06:30Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:06:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Column select Column.nameÂ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18584" started-at="2016-03-12T14:06:49Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:07:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from DB select DB.name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18624" started-at="2016-03-12T14:07:07Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from Table select Table.name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18507" started-at="2016-03-12T14:07:26Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:07:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from Table select Table -Â ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18558" started-at="2016-03-12T14:07:44Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:08:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from Table select Table.name , Table.ownerÂ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18615" started-at="2016-03-12T14:08:03Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:08:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from Table select Table.name, Table.owner, Table.creteTime]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18577" started-at="2016-03-12T14:08:22Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:08:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from DB select DB.name, DB.createTime]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18757" started-at="2016-03-12T14:08:40Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:08:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from DB select DB.name=â€˜sales']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18621" started-at="2016-03-12T14:08:59Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:09:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from DB select DB.name=â€˜Salesâ€™Â ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18606" started-at="2016-03-12T14:09:18Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:09:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Table select name,owner,createTime]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18594" started-at="2016-03-12T14:09:36Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:09:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from Table select Table.name, Table.ownerÂ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18581" started-at="2016-03-12T14:09:55Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:10:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from table select owner='joe']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchQueries(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchQueries" duration-ms="18531" started-at="2016-03-12T14:10:13Z" data-provider="searchDataFeed" finished-at="2016-03-12T14:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[from hive_table select tableName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchQueries -->
+        <test-method status="PASS" signature="validateSearchResultCount()[pri:16, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateSearchResultCount" duration-ms="16654" started-at="2016-03-12T14:10:32Z" finished-at="2016-03-12T14:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchResultCount -->
+        <test-method status="PASS" signature="validateTableHeaders(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:17, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateTableHeaders" duration-ms="77" started-at="2016-03-12T14:10:49Z" data-provider="searchTableHeaders" finished-at="2016-03-12T14:10:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Description]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Owner]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tags]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tools]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTableHeaders -->
+        <test-method status="PASS" signature="validateTagInSearchResult()[pri:18, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateTagInSearchResult" duration-ms="19891" started-at="2016-03-12T14:10:49Z" finished-at="2016-03-12T14:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTagInSearchResult -->
+        <test-method status="PASS" signature="validateTagSearchFunctionality()[pri:19, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateTagSearchFunctionality" duration-ms="238" started-at="2016-03-12T14:11:08Z" finished-at="2016-03-12T14:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTagSearchFunctionality -->
+        <test-method status="PASS" signature="validateTagSearchInSearchPage()[pri:20, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateTagSearchInSearchPage" duration-ms="20" started-at="2016-03-12T14:11:09Z" finished-at="2016-03-12T14:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTagSearchInSearchPage -->
+        <test-method status="PASS" signature="validateTagSearchResult()[pri:21, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateTagSearchResult" duration-ms="74" started-at="2016-03-12T14:11:09Z" finished-at="2016-03-12T14:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTagSearchResult -->
+        <test-method status="PASS" signature="validateTagSectionInSearchPage()[pri:22, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateTagSectionInSearchPage" duration-ms="13" started-at="2016-03-12T14:11:09Z" finished-at="2016-03-12T14:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTagSectionInSearchPage -->
+        <test-method status="PASS" signature="validate_TextAndDSL_availability()[pri:23, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validate_TextAndDSL_availability" duration-ms="16" started-at="2016-03-12T14:11:09Z" finished-at="2016-03-12T14:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_TextAndDSL_availability -->
+        <test-method status="PASS" signature="validateselectOptions()[pri:24, instance:org.apache.atlas.seleniumtests.SearchPageTest@c5ec9da]" name="validateselectOptions" duration-ms="4276" started-at="2016-03-12T14:11:09Z" finished-at="2016-03-12T14:11:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateselectOptions -->
+      </class> <!-- org.apache.atlas.seleniumtests.SearchPageTest -->
+      <class name="org.apache.atlas.seleniumtests.PaginationTest">
+        <test-method status="PASS" signature="loadPaginationTest(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.PaginationTest@a5dae4f]" name="loadPaginationTest" is-config="true" duration-ms="732" started-at="2016-03-12T14:05:22Z" description="Pagination Test Setup" finished-at="2016-03-12T14:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:8c692720-91a1-45a6-bfdf-71e22b4d11d5spellchecker=>src/test/data/spellcheckWebElementText.txtinvalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPaginationTest -->
+        <test-method status="PASS" signature="Validate_NumberOfRows()[pri:4, instance:org.apache.atlas.seleniumtests.PaginationTest@a5dae4f]" name="Validate_NumberOfRows" duration-ms="1871" started-at="2016-03-12T14:05:22Z" finished-at="2016-03-12T14:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_NumberOfRows -->
+        <test-method status="PASS" signature="Validate_NeumericboxAtBottom()[pri:5, instance:org.apache.atlas.seleniumtests.PaginationTest@a5dae4f]" name="Validate_NeumericboxAtBottom" duration-ms="18" started-at="2016-03-12T14:05:24Z" finished-at="2016-03-12T14:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_NeumericboxAtBottom -->
+        <test-method status="PASS" signature="Validate_FirstPagePagination()[pri:6, instance:org.apache.atlas.seleniumtests.PaginationTest@a5dae4f]" name="Validate_FirstPagePagination" duration-ms="8" started-at="2016-03-12T14:05:24Z" finished-at="2016-03-12T14:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FirstPagePagination -->
+        <test-method status="PASS" signature="Validate_LastPagePagination()[pri:7, instance:org.apache.atlas.seleniumtests.PaginationTest@a5dae4f]" name="Validate_LastPagePagination" duration-ms="8" started-at="2016-03-12T14:05:24Z" finished-at="2016-03-12T14:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_LastPagePagination -->
+        <test-method status="PASS" signature="MiddlePageOfPaginationVarification()[pri:8, instance:org.apache.atlas.seleniumtests.PaginationTest@a5dae4f]" name="MiddlePageOfPaginationVarification" duration-ms="8" started-at="2016-03-12T14:05:24Z" finished-at="2016-03-12T14:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MiddlePageOfPaginationVarification -->
+        <test-method status="PASS" signature="Validate_NumberOfRowsPerPage()[pri:9, instance:org.apache.atlas.seleniumtests.PaginationTest@a5dae4f]" name="Validate_NumberOfRowsPerPage" duration-ms="9" started-at="2016-03-12T14:05:24Z" finished-at="2016-03-12T14:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_NumberOfRowsPerPage -->
+      </class> <!-- org.apache.atlas.seleniumtests.PaginationTest -->
+      <class name="org.apache.atlas.seleniumtests.TagsPageTest">
+        <test-method status="PASS" signature="loadTagsTest(org.testng.xml.XmlTest)[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="loadTagsTest" is-config="true" duration-ms="734" started-at="2016-03-12T14:11:13Z" description="TagsPage Test Setup" finished-at="2016-03-12T14:11:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "AtlasUIAutomationTests" verbose:1[parameters:guid=>src/test/data/guid.txtsearchQueries=>src/test/data/searchqueries.txtvalidateLineage=>Metric:8c692720-91a1-45a6-bfdf-71e22b4d11d5spellchecker=>src/test/data/spellcheckWebElementText.txtinvalidSearchData=>abc!@#][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=org.apache.atlas.seleniumtests.HomePageTest] [XmlClass class=org.apache.atlas.seleniumtests.PaginationTest] [XmlClass class=org.apache.atlas.seleniumtests.SearchPageTest] [XmlClass class=org.apache.atlas.seleniumtests.TagsPageTest] [XmlClass class=org.apache.atlas.seleniumtests.LineagePageTest]  packages:] ]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadTagsTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-03-06T19:20:44Z" finished-at="2016-03-06T19:20:44Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:11:14Z" finished-at="2016-03-12T14:11:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testPageElementsFromTagsTab()[pri:4, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="testPageElementsFromTagsTab" duration-ms="25734" started-at="2016-03-06T19:20:44Z" finished-at="2016-03-06T19:21:10Z">
+        <test-method status="PASS" signature="testPageElementsFromTagsTab()[pri:25, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="testPageElementsFromTagsTab" duration-ms="3278" started-at="2016-03-12T14:11:14Z" finished-at="2016-03-12T14:11:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPageElementsFromTagsTab -->
-        <test-method status="PASS" signature="validateTagsPage()[pri:5, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateTagsPage" duration-ms="6277" started-at="2016-03-06T19:21:10Z" finished-at="2016-03-06T19:21:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:11:17Z" finished-at="2016-03-12T14:11:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateTagsPage()[pri:26, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateTagsPage" duration-ms="6305" started-at="2016-03-12T14:11:17Z" finished-at="2016-03-12T14:11:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTagsPage -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:21:10Z" finished-at="2016-03-06T19:21:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:21:16Z" finished-at="2016-03-06T19:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="ValidateTagNameWithAddAttribute()[pri:6, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="ValidateTagNameWithAddAttribute" duration-ms="53" started-at="2016-03-06T19:21:16Z" finished-at="2016-03-06T19:21:17Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:288)
-	at org.testng.Assert.assertEquals(Assert.java:298)
-	at org.atlas.ui.pages.TagsPage.validateAttributeEnable(TagsPage.java:180)
-	at org.apache.atlas.seleniumtests.TagsPageTest.ValidateTagNameWithAddAttribute(TagsPageTest.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[screenshot saved at D:\Deepika\software\workspace\Atlas\reports\ValidateTagNameWithAddAttribute.jpg]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ValidateTagNameWithAddAttribute -->
-        <test-method status="PASS" signature="duplicateTagName()[pri:7, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="duplicateTagName" duration-ms="18291" started-at="2016-03-06T19:21:17Z" finished-at="2016-03-06T19:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- duplicateTagName -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:21:17Z" finished-at="2016-03-06T19:21:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-03-06T19:21:35Z" finished-at="2016-03-06T19:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="createTagWithAttribute()[pri:8, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="createTagWithAttribute" duration-ms="6681" started-at="2016-03-06T19:21:35Z" finished-at="2016-03-06T19:21:42Z">
+        <test-method status="PASS" signature="createTagWithAttribute()[pri:28, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="createTagWithAttribute" duration-ms="6805" started-at="2016-03-12T14:11:23Z" finished-at="2016-03-12T14:11:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTagWithAttribute -->
-        <test-method status="PASS" signature="addFunctionalTestTag()[pri:9, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="addFunctionalTestTag" duration-ms="6346" started-at="2016-03-06T19:21:42Z" finished-at="2016-03-06T19:21:48Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:11:23Z" finished-at="2016-03-12T14:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addFunctionalTestTag()[pri:29, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="addFunctionalTestTag" duration-ms="6456" started-at="2016-03-12T14:11:30Z" finished-at="2016-03-12T14:11:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addFunctionalTestTag -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:21:42Z" finished-at="2016-03-06T19:21:42Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:11:30Z" finished-at="2016-03-12T14:11:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validateFunctionalTestTag()[pri:9, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateFunctionalTestTag" duration-ms="6650" started-at="2016-03-06T19:21:48Z" finished-at="2016-03-06T19:21:55Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:11:37Z" finished-at="2016-03-12T14:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="duplicateTagName()[pri:30, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="duplicateTagName" duration-ms="12850" started-at="2016-03-12T14:11:37Z" finished-at="2016-03-12T14:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateTagName -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:11:50Z" finished-at="2016-03-12T14:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateFunctionalTestTag()[pri:31, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateFunctionalTestTag" duration-ms="6340" started-at="2016-03-12T14:11:50Z" finished-at="2016-03-12T14:11:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFunctionalTestTag -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:21:48Z" finished-at="2016-03-06T19:21:48Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-03-12T14:11:56Z" finished-at="2016-03-12T14:11:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:21:55Z" finished-at="2016-03-06T19:21:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="VisibilityOfXButtonOnAttribute()[pri:10, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="VisibilityOfXButtonOnAttribute" duration-ms="15" started-at="2016-03-06T19:21:55Z" finished-at="2016-03-06T19:21:55Z">
+        <test-method status="PASS" signature="VisibilityOfXButtonOnAttribute()[pri:32, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="VisibilityOfXButtonOnAttribute" duration-ms="29" started-at="2016-03-12T14:11:56Z" finished-at="2016-03-12T14:11:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VisibilityOfXButtonOnAttribute -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:21:55Z" finished-at="2016-03-06T19:21:55Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:11:56Z" finished-at="2016-03-12T14:11:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="ValidateOfXButtonOnADDAtrribute()[pri:11, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="ValidateOfXButtonOnADDAtrribute" duration-ms="79" started-at="2016-03-06T19:21:55Z" finished-at="2016-03-06T19:21:55Z">
+        <test-method status="PASS" signature="ValidateOfXButtonOnADDAtrribute()[pri:33, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="ValidateOfXButtonOnADDAtrribute" duration-ms="95" started-at="2016-03-12T14:11:56Z" finished-at="2016-03-12T14:11:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateOfXButtonOnADDAtrribute -->
-        <test-method status="PASS" signature="ValidateMessageDisappear()[pri:12, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="ValidateMessageDisappear" duration-ms="72" started-at="2016-03-06T19:21:55Z" finished-at="2016-03-06T19:21:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateMessageDisappear -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:21:55Z" finished-at="2016-03-06T19:21:55Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-03-12T14:11:56Z" finished-at="2016-03-12T14:11:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:21:55Z" finished-at="2016-03-06T19:21:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="ValidateAutoRefreshForNewTagCreated()[pri:13, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="ValidateAutoRefreshForNewTagCreated" duration-ms="2001" started-at="2016-03-06T19:21:55Z" finished-at="2016-03-06T19:21:57Z">
+        <test-method status="PASS" signature="ValidateAutoRefreshForNewTagCreated()[pri:35, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="ValidateAutoRefreshForNewTagCreated" duration-ms="7722" started-at="2016-03-12T14:11:56Z" finished-at="2016-03-12T14:12:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateAutoRefreshForNewTagCreated -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-03-06T19:21:57Z" finished-at="2016-03-06T19:21:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="WebElementCollection()[pri:14, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="WebElementCollection" duration-ms="44355" started-at="2016-03-06T19:21:57Z" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="WebElementCollection()[pri:36, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="WebElementCollection" duration-ms="34844" started-at="2016-03-12T14:12:04Z" finished-at="2016-03-12T14:12:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebElementCollection -->
-        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateSpellChecker" duration-ms="3" started-at="2016-03-06T19:22:41Z" data-provider="atlasspellchecker" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:12:04Z" finished-at="2016-03-12T14:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="2001" started-at="2016-03-12T14:12:39Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:12:41Z">
           <params>
             <param index="0">
               <value>
@@ -211,15 +479,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSpellChecker -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:22:41Z" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:12:39Z" finished-at="2016-03-12T14:12:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-03-06T19:22:41Z" finished-at="2016-03-06T19:22:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateSpellChecker" duration-ms="2" started-at="2016-03-06T19:22:41Z" data-provider="atlasspellchecker" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="4008" started-at="2016-03-12T14:12:41Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:12:45Z">
           <params>
             <param index="0">
               <value>
@@ -230,11 +494,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSpellChecker -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:22:41Z" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:12:41Z" finished-at="2016-03-12T14:12:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateSpellChecker" duration-ms="3" started-at="2016-03-06T19:22:41Z" data-provider="atlasspellchecker" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:12:45Z" finished-at="2016-03-12T14:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="6010" started-at="2016-03-12T14:12:45Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:12:51Z">
           <params>
             <param index="0">
               <value>
@@ -245,11 +513,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSpellChecker -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-03-06T19:22:41Z" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:12:51Z" finished-at="2016-03-12T14:12:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateSpellChecker" duration-ms="2" started-at="2016-03-06T19:22:41Z" data-provider="atlasspellchecker" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="8007" started-at="2016-03-12T14:12:51Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:12:59Z">
           <params>
             <param index="0">
               <value>
@@ -260,7 +528,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSpellChecker -->
-        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateSpellChecker" duration-ms="1" started-at="2016-03-06T19:22:41Z" data-provider="atlasspellchecker" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="10008" started-at="2016-03-12T14:12:59Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:13:09Z">
           <params>
             <param index="0">
               <value>
@@ -271,15 +539,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSpellChecker -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:22:41Z" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:12:59Z" finished-at="2016-03-12T14:12:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:22:41Z" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:13:09Z" finished-at="2016-03-12T14:13:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateSpellChecker" duration-ms="1" started-at="2016-03-06T19:22:41Z" data-provider="atlasspellchecker" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="12009" started-at="2016-03-12T14:13:09Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:13:21Z">
           <params>
             <param index="0">
               <value>
@@ -290,11 +558,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSpellChecker -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:22:41Z" finished-at="2016-03-06T19:22:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateSpellChecker" duration-ms="1" started-at="2016-03-06T19:22:41Z" data-provider="atlasspellchecker" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="14014" started-at="2016-03-12T14:13:21Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:13:35Z">
           <params>
             <param index="0">
               <value>
@@ -305,11 +569,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSpellChecker -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:22:41Z" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:13:21Z" finished-at="2016-03-12T14:13:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateSpellChecker" duration-ms="1" started-at="2016-03-06T19:22:41Z" data-provider="atlasspellchecker" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:13:35Z" finished-at="2016-03-12T14:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="16013" started-at="2016-03-12T14:13:35Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:13:51Z">
           <params>
             <param index="0">
               <value>
@@ -320,7 +588,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSpellChecker -->
-        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateSpellChecker" duration-ms="1" started-at="2016-03-06T19:22:41Z" data-provider="atlasspellchecker" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="18007" started-at="2016-03-12T14:13:51Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:14:09Z">
           <params>
             <param index="0">
               <value>
@@ -331,15 +599,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSpellChecker -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:22:41Z" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:13:51Z" finished-at="2016-03-12T14:13:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:22:41Z" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:14:09Z" finished-at="2016-03-12T14:14:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateSpellChecker" duration-ms="0" started-at="2016-03-06T19:22:41Z" data-provider="atlasspellchecker" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="20026" started-at="2016-03-12T14:14:09Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:14:29Z">
           <params>
             <param index="0">
               <value>
@@ -350,7 +618,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSpellChecker -->
-        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:15, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="validateSpellChecker" duration-ms="1" started-at="2016-03-06T19:22:41Z" data-provider="atlasspellchecker" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:14:29Z" finished-at="2016-03-12T14:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="22010" started-at="2016-03-12T14:14:29Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:14:51Z">
           <params>
             <param index="0">
               <value>
@@ -361,10 +633,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSpellChecker -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@6b4ceb0d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-06T19:22:41Z" finished-at="2016-03-06T19:22:41Z">
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="26028" started-at="2016-03-12T14:14:51Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:15:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search using a query string: e.g. sales_fact]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSpellChecker -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:14:51Z" finished-at="2016-03-12T14:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-12T14:15:17Z" finished-at="2016-03-12T14:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateSpellChecker(java.lang.String)[pri:37, instance:org.apache.atlas.seleniumtests.TagsPageTest@23160d8e]" name="validateSpellChecker" duration-ms="24026" started-at="2016-03-12T14:15:17Z" data-provider="atlasspellchecker" finished-at="2016-03-12T14:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search using a DSL query: e.g. DataSet where name="sales_fact"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSpellChecker -->
       </class> <!-- org.apache.atlas.seleniumtests.TagsPageTest -->
     </test> <!-- AtlasUIAutomationTests -->
   </suite> <!-- AtlasSuite -->

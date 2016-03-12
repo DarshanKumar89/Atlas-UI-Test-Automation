@@ -9,3 +9,5 @@ Parent Tag
 Add Attribute
 Save
 Attribute name
+Search using a query string: e.g. sales_fact
+Search using a DSL query: e.g. DataSet where name="sales_fact"
